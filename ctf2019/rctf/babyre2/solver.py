@@ -1,6 +1,6 @@
 from pwn import *
-#p = process('./babyre2')
-p = remote('139.180.215.222','20000')
+p = process('./babyre2')
+#p = remote('139.180.215.222','20000')
 p.recvuntil('Please input the account:')
 p.send('A'*16)
 p.recvuntil('Please input the password:')
