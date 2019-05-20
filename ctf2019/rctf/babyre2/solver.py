@@ -1,0 +1,10 @@
+from pwn import *
+#p = process('./babyre2')
+p = remote('139.180.215.222','20000')
+p.recvuntil('Please input the account:')
+p.send('A'*16)
+p.recvuntil('Please input the password:')
+p.send('a'*16)
+p.recvuntil('Please input the data:')
+p.send('8D'*256)
+p.interactive()
