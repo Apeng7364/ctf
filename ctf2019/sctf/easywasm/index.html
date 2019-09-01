@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>index</title>
+</head>
+<body>
+<script src="./easywasm.js"></script>
+<!--<script src="./index.js"></script>-->
+<script>
+    const wasm = Module({ wasmBinaryFile: "http://localhost:8000/easywasm.wasm" });
+    function main123(username, introduction) {
+        var username = username;
+        var introduction = introduction;
+        var password = 0;
+
+
+        password = Math.floor(Math.random() * 0xffffffff);
+        wasm._registered(to_cstr(username), password, to_cstr(introduction));
+        console.log(123);
+    }
+
+    function to_cstr(str) {
+        var ptr = wasm.allocate(
+            wasm.intArrayFromString(str),
+            "i8",
+            wasm.ALLOC_NORMAL
+        );
+        return ptr;
+    }
+</script>
+</body>
+</html>
