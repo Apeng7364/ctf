@@ -1,0 +1,10 @@
+Package: libgmp
+Version: 6.1.2-1
+Depends: libc
+Source: package/libs/gmp
+License: GPL-2.0+
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 210982
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.

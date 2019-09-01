@@ -1,0 +1,10 @@
+Package: uboot-envtools
+Version: 2018.03-1
+Depends: libc
+Source: package/boot/uboot-envtools
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: Licenses/README
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 12114
+Description:  This package includes tools to read and modify U-Boot bootloader environment.

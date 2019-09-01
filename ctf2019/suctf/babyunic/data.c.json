@@ -1,0 +1,2466 @@
+{
+	"architecture" : 
+	{
+		"bitSize" : 32,
+		"endian" : "big",
+		"name" : "mips"
+	},
+	"classes" : [],
+	"date" : "2019-08-18",
+	"decompParams" : 
+	{
+		"abiPaths" : [],
+		"frontEndOutputFile" : "D:\\ctf\\ctf 2019\\suctf\\babyunic\\data.c.frontend.ll",
+		"frontendFunctions" : 
+		[
+			"__decompiler_undefined_function_"
+		],
+		"keepAllFuncs" : true,
+		"libraryTypeInfoPaths" : 
+		[
+			"D:/retdec/bin/../share/retdec/support/generic/types/arm.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/cstdlib.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/linux.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/windows.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/windrivers.json"
+		],
+		"outputFile" : "D:\\ctf\\ctf 2019\\suctf\\babyunic\\data.c",
+		"selectedDecodeOnly" : true,
+		"selectedFunctions" : [],
+		"selectedNotFoundFncs" : [],
+		"selectedRanges" : 
+		[
+			{
+				"end" : "0x706f",
+				"start" : "0x0"
+			}
+		],
+		"staticSignPaths" : 
+		[
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/be/mips/mips-gcc-4.8.3.yara",
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/be/mips/mips-sfloat-gcc-4.8.3.yara",
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/be/mips/uClibc/mips-gcc-4.8.3.yara",
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/be/mips/uClibc/mips-nan2008-gcc-4.8.3.yara",
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/be/mips/uClibc/mips-sfloat-gcc-4.8.3.yara"
+		],
+		"userStaticSignPaths" : [],
+		"verboseOut" : false
+	},
+	"entryPoint" : "0x0",
+	"fileFormat" : "raw32",
+	"fileType" : "executable",
+	"functions" : 
+	[
+		{
+			"callingConvention" : "unknown",
+			"endAddr" : "0x7070",
+			"fncType" : "userDefined",
+			"locals" : 
+			[
+				{
+					"name" : "a0.global-to-local",
+					"storage" : 
+					{
+						"type" : "register",
+						"value" : "a0"
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32"
+					}
+				},
+				{
+					"name" : "a1.global-to-local",
+					"storage" : 
+					{
+						"type" : "register",
+						"value" : "a1"
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32"
+					}
+				},
+				{
+					"name" : "fp.global-to-local",
+					"storage" : 
+					{
+						"type" : "register",
+						"value" : "fp"
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32"
+					}
+				},
+				{
+					"name" : "stack_var_-12",
+					"realName" : "stack_var_-12",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : -12
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "stack_var_-16",
+					"realName" : "stack_var_-16",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : -16
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "stack_var_-17",
+					"realName" : "stack_var_-17",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : -17
+					},
+					"type" : 
+					{
+						"llvmIr" : "i8*"
+					}
+				},
+				{
+					"name" : "stack_var_-24",
+					"realName" : "stack_var_-24",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : -24
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "stack_var_-4",
+					"realName" : "stack_var_-4",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : -4
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "stack_var_0",
+					"realName" : "stack_var_0",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : 0
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "stack_var_4",
+					"realName" : "stack_var_4",
+					"storage" : 
+					{
+						"type" : "stack",
+						"value" : 4
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32*"
+					}
+				},
+				{
+					"name" : "v0.global-to-local",
+					"storage" : 
+					{
+						"type" : "register",
+						"value" : "v0"
+					},
+					"type" : 
+					{
+						"llvmIr" : "i32"
+					}
+				}
+			],
+			"name" : "sub_0",
+			"parameters" : 
+			[
+				{
+					"name" : "arg1",
+					"type" : 
+					{
+						"llvmIr" : "i8*"
+					}
+				},
+				{
+					"name" : "arg2",
+					"type" : 
+					{
+						"llvmIr" : "i32"
+					}
+				}
+			],
+			"returnStorage" : 
+			{
+				"type" : "register",
+				"value" : "$v0"
+			},
+			"returnType" : 
+			{
+				"llvmIr" : "i32"
+			},
+			"startAddr" : "0x0",
+			"usedCryptoConstants" : []
+		}
+	],
+	"globals" : 
+	[
+		{
+			"name" : "global_var_15.3",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x15"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_18.1",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x18"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_19.4",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x19"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_1c.5",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x1c"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_1d.6",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x1d"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_20.7",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x20"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_21.8",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x21"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_23.9",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x23"
+			},
+			"type" : 
+			{
+				"llvmIr" : "[4 x i8]"
+			}
+		},
+		{
+			"name" : "global_var_24.10",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x24"
+			},
+			"type" : 
+			{
+				"llvmIr" : "[3 x i8]"
+			}
+		},
+		{
+			"name" : "global_var_25.11",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x25"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8*"
+			}
+		},
+		{
+			"name" : "global_var_3c.12",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x3c"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_40.13",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x40"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_44.14",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x44"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_48.15",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x48"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_4c.16",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x4c"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_50.17",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x50"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "global_var_84.18",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0x84"
+			},
+			"type" : 
+			{
+				"llvmIr" : "[3 x i8]"
+			}
+		},
+		{
+			"name" : "global_var_a4.19",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0xa4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "[3 x i8]"
+			}
+		},
+		{
+			"name" : "global_var_ff.2",
+			"storage" : 
+			{
+				"type" : "global",
+				"value" : "0xff"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i8"
+			}
+		}
+	],
+	"ida" : true,
+	"inputFile" : "D:\\ctf\\ctf 2019\\suctf\\babyunic\\data",
+	"languages" : [],
+	"patterns" : [],
+	"registers" : 
+	[
+		{
+			"name" : "a0",
+			"realName" : "a0",
+			"storage" : 
+			{
+				"registerNumber" : 6,
+				"type" : "register",
+				"value" : "a0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "a1",
+			"realName" : "a1",
+			"storage" : 
+			{
+				"registerNumber" : 7,
+				"type" : "register",
+				"value" : "a1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "a2",
+			"realName" : "a2",
+			"storage" : 
+			{
+				"registerNumber" : 8,
+				"type" : "register",
+				"value" : "a2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "a3",
+			"realName" : "a3",
+			"storage" : 
+			{
+				"registerNumber" : 9,
+				"type" : "register",
+				"value" : "a3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "ac0",
+			"realName" : "ac0",
+			"storage" : 
+			{
+				"registerNumber" : 45,
+				"type" : "register",
+				"value" : "ac0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "ac1",
+			"realName" : "ac1",
+			"storage" : 
+			{
+				"registerNumber" : 46,
+				"type" : "register",
+				"value" : "ac1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "ac2",
+			"realName" : "ac2",
+			"storage" : 
+			{
+				"registerNumber" : 47,
+				"type" : "register",
+				"value" : "ac2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "ac3",
+			"realName" : "ac3",
+			"storage" : 
+			{
+				"registerNumber" : 48,
+				"type" : "register",
+				"value" : "ac3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "at",
+			"realName" : "at",
+			"storage" : 
+			{
+				"registerNumber" : 3,
+				"type" : "register",
+				"value" : "at"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc0",
+			"realName" : "cc0",
+			"storage" : 
+			{
+				"registerNumber" : 49,
+				"type" : "register",
+				"value" : "cc0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc1",
+			"realName" : "cc1",
+			"storage" : 
+			{
+				"registerNumber" : 50,
+				"type" : "register",
+				"value" : "cc1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc2",
+			"realName" : "cc2",
+			"storage" : 
+			{
+				"registerNumber" : 51,
+				"type" : "register",
+				"value" : "cc2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc3",
+			"realName" : "cc3",
+			"storage" : 
+			{
+				"registerNumber" : 52,
+				"type" : "register",
+				"value" : "cc3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc4",
+			"realName" : "cc4",
+			"storage" : 
+			{
+				"registerNumber" : 53,
+				"type" : "register",
+				"value" : "cc4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc5",
+			"realName" : "cc5",
+			"storage" : 
+			{
+				"registerNumber" : 54,
+				"type" : "register",
+				"value" : "cc5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc6",
+			"realName" : "cc6",
+			"storage" : 
+			{
+				"registerNumber" : 55,
+				"type" : "register",
+				"value" : "cc6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "cc7",
+			"realName" : "cc7",
+			"storage" : 
+			{
+				"registerNumber" : 56,
+				"type" : "register",
+				"value" : "cc7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "f0",
+			"realName" : "f0",
+			"storage" : 
+			{
+				"registerNumber" : 57,
+				"type" : "register",
+				"value" : "f0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f1",
+			"realName" : "f1",
+			"storage" : 
+			{
+				"registerNumber" : 58,
+				"type" : "register",
+				"value" : "f1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f10",
+			"realName" : "f10",
+			"storage" : 
+			{
+				"registerNumber" : 67,
+				"type" : "register",
+				"value" : "f10"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f11",
+			"realName" : "f11",
+			"storage" : 
+			{
+				"registerNumber" : 68,
+				"type" : "register",
+				"value" : "f11"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f12",
+			"realName" : "f12",
+			"storage" : 
+			{
+				"registerNumber" : 69,
+				"type" : "register",
+				"value" : "f12"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f13",
+			"realName" : "f13",
+			"storage" : 
+			{
+				"registerNumber" : 70,
+				"type" : "register",
+				"value" : "f13"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f14",
+			"realName" : "f14",
+			"storage" : 
+			{
+				"registerNumber" : 71,
+				"type" : "register",
+				"value" : "f14"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f15",
+			"realName" : "f15",
+			"storage" : 
+			{
+				"registerNumber" : 72,
+				"type" : "register",
+				"value" : "f15"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f16",
+			"realName" : "f16",
+			"storage" : 
+			{
+				"registerNumber" : 73,
+				"type" : "register",
+				"value" : "f16"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f17",
+			"realName" : "f17",
+			"storage" : 
+			{
+				"registerNumber" : 74,
+				"type" : "register",
+				"value" : "f17"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f18",
+			"realName" : "f18",
+			"storage" : 
+			{
+				"registerNumber" : 75,
+				"type" : "register",
+				"value" : "f18"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f19",
+			"realName" : "f19",
+			"storage" : 
+			{
+				"registerNumber" : 76,
+				"type" : "register",
+				"value" : "f19"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f2",
+			"realName" : "f2",
+			"storage" : 
+			{
+				"registerNumber" : 59,
+				"type" : "register",
+				"value" : "f2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f20",
+			"realName" : "f20",
+			"storage" : 
+			{
+				"registerNumber" : 77,
+				"type" : "register",
+				"value" : "f20"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f21",
+			"realName" : "f21",
+			"storage" : 
+			{
+				"registerNumber" : 78,
+				"type" : "register",
+				"value" : "f21"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f22",
+			"realName" : "f22",
+			"storage" : 
+			{
+				"registerNumber" : 79,
+				"type" : "register",
+				"value" : "f22"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f23",
+			"realName" : "f23",
+			"storage" : 
+			{
+				"registerNumber" : 80,
+				"type" : "register",
+				"value" : "f23"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f24",
+			"realName" : "f24",
+			"storage" : 
+			{
+				"registerNumber" : 81,
+				"type" : "register",
+				"value" : "f24"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f25",
+			"realName" : "f25",
+			"storage" : 
+			{
+				"registerNumber" : 82,
+				"type" : "register",
+				"value" : "f25"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f26",
+			"realName" : "f26",
+			"storage" : 
+			{
+				"registerNumber" : 83,
+				"type" : "register",
+				"value" : "f26"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f27",
+			"realName" : "f27",
+			"storage" : 
+			{
+				"registerNumber" : 84,
+				"type" : "register",
+				"value" : "f27"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f28",
+			"realName" : "f28",
+			"storage" : 
+			{
+				"registerNumber" : 85,
+				"type" : "register",
+				"value" : "f28"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f29",
+			"realName" : "f29",
+			"storage" : 
+			{
+				"registerNumber" : 86,
+				"type" : "register",
+				"value" : "f29"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f3",
+			"realName" : "f3",
+			"storage" : 
+			{
+				"registerNumber" : 60,
+				"type" : "register",
+				"value" : "f3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f30",
+			"realName" : "f30",
+			"storage" : 
+			{
+				"registerNumber" : 87,
+				"type" : "register",
+				"value" : "f30"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f31",
+			"realName" : "f31",
+			"storage" : 
+			{
+				"registerNumber" : 88,
+				"type" : "register",
+				"value" : "f31"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f4",
+			"realName" : "f4",
+			"storage" : 
+			{
+				"registerNumber" : 61,
+				"type" : "register",
+				"value" : "f4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f5",
+			"realName" : "f5",
+			"storage" : 
+			{
+				"registerNumber" : 62,
+				"type" : "register",
+				"value" : "f5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f6",
+			"realName" : "f6",
+			"storage" : 
+			{
+				"registerNumber" : 63,
+				"type" : "register",
+				"value" : "f6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f7",
+			"realName" : "f7",
+			"storage" : 
+			{
+				"registerNumber" : 64,
+				"type" : "register",
+				"value" : "f7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f8",
+			"realName" : "f8",
+			"storage" : 
+			{
+				"registerNumber" : 65,
+				"type" : "register",
+				"value" : "f8"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "f9",
+			"realName" : "f9",
+			"storage" : 
+			{
+				"registerNumber" : 66,
+				"type" : "register",
+				"value" : "f9"
+			},
+			"type" : 
+			{
+				"llvmIr" : "float"
+			}
+		},
+		{
+			"name" : "fcc0",
+			"realName" : "fcc0",
+			"storage" : 
+			{
+				"registerNumber" : 89,
+				"type" : "register",
+				"value" : "fcc0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc1",
+			"realName" : "fcc1",
+			"storage" : 
+			{
+				"registerNumber" : 90,
+				"type" : "register",
+				"value" : "fcc1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc2",
+			"realName" : "fcc2",
+			"storage" : 
+			{
+				"registerNumber" : 91,
+				"type" : "register",
+				"value" : "fcc2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc3",
+			"realName" : "fcc3",
+			"storage" : 
+			{
+				"registerNumber" : 92,
+				"type" : "register",
+				"value" : "fcc3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc4",
+			"realName" : "fcc4",
+			"storage" : 
+			{
+				"registerNumber" : 93,
+				"type" : "register",
+				"value" : "fcc4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc5",
+			"realName" : "fcc5",
+			"storage" : 
+			{
+				"registerNumber" : 94,
+				"type" : "register",
+				"value" : "fcc5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc6",
+			"realName" : "fcc6",
+			"storage" : 
+			{
+				"registerNumber" : 95,
+				"type" : "register",
+				"value" : "fcc6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fcc7",
+			"realName" : "fcc7",
+			"storage" : 
+			{
+				"registerNumber" : 96,
+				"type" : "register",
+				"value" : "fcc7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "fd0",
+			"realName" : "fd0",
+			"storage" : 
+			{
+				"registerNumber" : 138,
+				"type" : "register",
+				"value" : "fd0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd10",
+			"realName" : "fd10",
+			"storage" : 
+			{
+				"registerNumber" : 143,
+				"type" : "register",
+				"value" : "fd10"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd12",
+			"realName" : "fd12",
+			"storage" : 
+			{
+				"registerNumber" : 144,
+				"type" : "register",
+				"value" : "fd12"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd14",
+			"realName" : "fd14",
+			"storage" : 
+			{
+				"registerNumber" : 145,
+				"type" : "register",
+				"value" : "fd14"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd16",
+			"realName" : "fd16",
+			"storage" : 
+			{
+				"registerNumber" : 146,
+				"type" : "register",
+				"value" : "fd16"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd18",
+			"realName" : "fd18",
+			"storage" : 
+			{
+				"registerNumber" : 147,
+				"type" : "register",
+				"value" : "fd18"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd2",
+			"realName" : "fd2",
+			"storage" : 
+			{
+				"registerNumber" : 139,
+				"type" : "register",
+				"value" : "fd2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd20",
+			"realName" : "fd20",
+			"storage" : 
+			{
+				"registerNumber" : 148,
+				"type" : "register",
+				"value" : "fd20"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd22",
+			"realName" : "fd22",
+			"storage" : 
+			{
+				"registerNumber" : 149,
+				"type" : "register",
+				"value" : "fd22"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd24",
+			"realName" : "fd24",
+			"storage" : 
+			{
+				"registerNumber" : 150,
+				"type" : "register",
+				"value" : "fd24"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd26",
+			"realName" : "fd26",
+			"storage" : 
+			{
+				"registerNumber" : 151,
+				"type" : "register",
+				"value" : "fd26"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd28",
+			"realName" : "fd28",
+			"storage" : 
+			{
+				"registerNumber" : 152,
+				"type" : "register",
+				"value" : "fd28"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd30",
+			"realName" : "fd30",
+			"storage" : 
+			{
+				"registerNumber" : 153,
+				"type" : "register",
+				"value" : "fd30"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd4",
+			"realName" : "fd4",
+			"storage" : 
+			{
+				"registerNumber" : 140,
+				"type" : "register",
+				"value" : "fd4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd6",
+			"realName" : "fd6",
+			"storage" : 
+			{
+				"registerNumber" : 141,
+				"type" : "register",
+				"value" : "fd6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fd8",
+			"realName" : "fd8",
+			"storage" : 
+			{
+				"registerNumber" : 142,
+				"type" : "register",
+				"value" : "fd8"
+			},
+			"type" : 
+			{
+				"llvmIr" : "double"
+			}
+		},
+		{
+			"name" : "fp",
+			"realName" : "fp",
+			"storage" : 
+			{
+				"registerNumber" : 32,
+				"type" : "register",
+				"value" : "fp"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "gp",
+			"realName" : "gp",
+			"storage" : 
+			{
+				"registerNumber" : 30,
+				"type" : "register",
+				"value" : "gp"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "hi",
+			"realName" : "hi",
+			"storage" : 
+			{
+				"registerNumber" : 129,
+				"type" : "register",
+				"value" : "hi"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "k0",
+			"realName" : "k0",
+			"storage" : 
+			{
+				"registerNumber" : 28,
+				"type" : "register",
+				"value" : "k0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "k1",
+			"realName" : "k1",
+			"storage" : 
+			{
+				"registerNumber" : 29,
+				"type" : "register",
+				"value" : "k1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "lo",
+			"realName" : "lo",
+			"storage" : 
+			{
+				"registerNumber" : 130,
+				"type" : "register",
+				"value" : "lo"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "mpl0",
+			"realName" : "mpl0",
+			"storage" : 
+			{
+				"registerNumber" : 134,
+				"type" : "register",
+				"value" : "mpl0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "mpl1",
+			"realName" : "mpl1",
+			"storage" : 
+			{
+				"registerNumber" : 135,
+				"type" : "register",
+				"value" : "mpl1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "mpl2",
+			"realName" : "mpl2",
+			"storage" : 
+			{
+				"registerNumber" : 136,
+				"type" : "register",
+				"value" : "mpl2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "p0",
+			"realName" : "p0",
+			"storage" : 
+			{
+				"registerNumber" : 131,
+				"type" : "register",
+				"value" : "p0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "p1",
+			"realName" : "p1",
+			"storage" : 
+			{
+				"registerNumber" : 132,
+				"type" : "register",
+				"value" : "p1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "p2",
+			"realName" : "p2",
+			"storage" : 
+			{
+				"registerNumber" : 133,
+				"type" : "register",
+				"value" : "p2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "pc",
+			"realName" : "pc",
+			"storage" : 
+			{
+				"registerNumber" : 1,
+				"type" : "register",
+				"value" : "pc"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "ra",
+			"realName" : "ra",
+			"storage" : 
+			{
+				"registerNumber" : 33,
+				"type" : "register",
+				"value" : "ra"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s0",
+			"realName" : "s0",
+			"storage" : 
+			{
+				"registerNumber" : 18,
+				"type" : "register",
+				"value" : "s0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s1",
+			"realName" : "s1",
+			"storage" : 
+			{
+				"registerNumber" : 19,
+				"type" : "register",
+				"value" : "s1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s2",
+			"realName" : "s2",
+			"storage" : 
+			{
+				"registerNumber" : 20,
+				"type" : "register",
+				"value" : "s2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s3",
+			"realName" : "s3",
+			"storage" : 
+			{
+				"registerNumber" : 21,
+				"type" : "register",
+				"value" : "s3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s4",
+			"realName" : "s4",
+			"storage" : 
+			{
+				"registerNumber" : 22,
+				"type" : "register",
+				"value" : "s4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s5",
+			"realName" : "s5",
+			"storage" : 
+			{
+				"registerNumber" : 23,
+				"type" : "register",
+				"value" : "s5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s6",
+			"realName" : "s6",
+			"storage" : 
+			{
+				"registerNumber" : 24,
+				"type" : "register",
+				"value" : "s6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "s7",
+			"realName" : "s7",
+			"storage" : 
+			{
+				"registerNumber" : 25,
+				"type" : "register",
+				"value" : "s7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "sp",
+			"realName" : "sp",
+			"storage" : 
+			{
+				"registerNumber" : 31,
+				"type" : "register",
+				"value" : "sp"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t0",
+			"realName" : "t0",
+			"storage" : 
+			{
+				"registerNumber" : 10,
+				"type" : "register",
+				"value" : "t0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t1",
+			"realName" : "t1",
+			"storage" : 
+			{
+				"registerNumber" : 11,
+				"type" : "register",
+				"value" : "t1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t2",
+			"realName" : "t2",
+			"storage" : 
+			{
+				"registerNumber" : 12,
+				"type" : "register",
+				"value" : "t2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t3",
+			"realName" : "t3",
+			"storage" : 
+			{
+				"registerNumber" : 13,
+				"type" : "register",
+				"value" : "t3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t4",
+			"realName" : "t4",
+			"storage" : 
+			{
+				"registerNumber" : 14,
+				"type" : "register",
+				"value" : "t4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t5",
+			"realName" : "t5",
+			"storage" : 
+			{
+				"registerNumber" : 15,
+				"type" : "register",
+				"value" : "t5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t6",
+			"realName" : "t6",
+			"storage" : 
+			{
+				"registerNumber" : 16,
+				"type" : "register",
+				"value" : "t6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t7",
+			"realName" : "t7",
+			"storage" : 
+			{
+				"registerNumber" : 17,
+				"type" : "register",
+				"value" : "t7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t8",
+			"realName" : "t8",
+			"storage" : 
+			{
+				"registerNumber" : 26,
+				"type" : "register",
+				"value" : "t8"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "t9",
+			"realName" : "t9",
+			"storage" : 
+			{
+				"registerNumber" : 27,
+				"type" : "register",
+				"value" : "t9"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "v0",
+			"realName" : "v0",
+			"storage" : 
+			{
+				"registerNumber" : 4,
+				"type" : "register",
+				"value" : "v0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "v1",
+			"realName" : "v1",
+			"storage" : 
+			{
+				"registerNumber" : 5,
+				"type" : "register",
+				"value" : "v1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		},
+		{
+			"name" : "w0",
+			"realName" : "w0",
+			"storage" : 
+			{
+				"registerNumber" : 97,
+				"type" : "register",
+				"value" : "w0"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w1",
+			"realName" : "w1",
+			"storage" : 
+			{
+				"registerNumber" : 98,
+				"type" : "register",
+				"value" : "w1"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w10",
+			"realName" : "w10",
+			"storage" : 
+			{
+				"registerNumber" : 107,
+				"type" : "register",
+				"value" : "w10"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w11",
+			"realName" : "w11",
+			"storage" : 
+			{
+				"registerNumber" : 108,
+				"type" : "register",
+				"value" : "w11"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w12",
+			"realName" : "w12",
+			"storage" : 
+			{
+				"registerNumber" : 109,
+				"type" : "register",
+				"value" : "w12"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w13",
+			"realName" : "w13",
+			"storage" : 
+			{
+				"registerNumber" : 110,
+				"type" : "register",
+				"value" : "w13"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w14",
+			"realName" : "w14",
+			"storage" : 
+			{
+				"registerNumber" : 111,
+				"type" : "register",
+				"value" : "w14"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w15",
+			"realName" : "w15",
+			"storage" : 
+			{
+				"registerNumber" : 112,
+				"type" : "register",
+				"value" : "w15"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w16",
+			"realName" : "w16",
+			"storage" : 
+			{
+				"registerNumber" : 113,
+				"type" : "register",
+				"value" : "w16"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w17",
+			"realName" : "w17",
+			"storage" : 
+			{
+				"registerNumber" : 114,
+				"type" : "register",
+				"value" : "w17"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w18",
+			"realName" : "w18",
+			"storage" : 
+			{
+				"registerNumber" : 115,
+				"type" : "register",
+				"value" : "w18"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w19",
+			"realName" : "w19",
+			"storage" : 
+			{
+				"registerNumber" : 116,
+				"type" : "register",
+				"value" : "w19"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w2",
+			"realName" : "w2",
+			"storage" : 
+			{
+				"registerNumber" : 99,
+				"type" : "register",
+				"value" : "w2"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w20",
+			"realName" : "w20",
+			"storage" : 
+			{
+				"registerNumber" : 117,
+				"type" : "register",
+				"value" : "w20"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w21",
+			"realName" : "w21",
+			"storage" : 
+			{
+				"registerNumber" : 118,
+				"type" : "register",
+				"value" : "w21"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w22",
+			"realName" : "w22",
+			"storage" : 
+			{
+				"registerNumber" : 119,
+				"type" : "register",
+				"value" : "w22"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w23",
+			"realName" : "w23",
+			"storage" : 
+			{
+				"registerNumber" : 120,
+				"type" : "register",
+				"value" : "w23"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w24",
+			"realName" : "w24",
+			"storage" : 
+			{
+				"registerNumber" : 121,
+				"type" : "register",
+				"value" : "w24"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w25",
+			"realName" : "w25",
+			"storage" : 
+			{
+				"registerNumber" : 122,
+				"type" : "register",
+				"value" : "w25"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w26",
+			"realName" : "w26",
+			"storage" : 
+			{
+				"registerNumber" : 123,
+				"type" : "register",
+				"value" : "w26"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w27",
+			"realName" : "w27",
+			"storage" : 
+			{
+				"registerNumber" : 124,
+				"type" : "register",
+				"value" : "w27"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w28",
+			"realName" : "w28",
+			"storage" : 
+			{
+				"registerNumber" : 125,
+				"type" : "register",
+				"value" : "w28"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w29",
+			"realName" : "w29",
+			"storage" : 
+			{
+				"registerNumber" : 126,
+				"type" : "register",
+				"value" : "w29"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w3",
+			"realName" : "w3",
+			"storage" : 
+			{
+				"registerNumber" : 100,
+				"type" : "register",
+				"value" : "w3"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w30",
+			"realName" : "w30",
+			"storage" : 
+			{
+				"registerNumber" : 127,
+				"type" : "register",
+				"value" : "w30"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w31",
+			"realName" : "w31",
+			"storage" : 
+			{
+				"registerNumber" : 128,
+				"type" : "register",
+				"value" : "w31"
+			},
+			"type" : 
+			{
+				"llvmIr" : "fp128"
+			}
+		},
+		{
+			"name" : "w4",
+			"realName" : "w4",
+			"storage" : 
+			{
+				"registerNumber" : 101,
+				"type" : "register",
+				"value" : "w4"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w5",
+			"realName" : "w5",
+			"storage" : 
+			{
+				"registerNumber" : 102,
+				"type" : "register",
+				"value" : "w5"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w6",
+			"realName" : "w6",
+			"storage" : 
+			{
+				"registerNumber" : 103,
+				"type" : "register",
+				"value" : "w6"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w7",
+			"realName" : "w7",
+			"storage" : 
+			{
+				"registerNumber" : 104,
+				"type" : "register",
+				"value" : "w7"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w8",
+			"realName" : "w8",
+			"storage" : 
+			{
+				"registerNumber" : 105,
+				"type" : "register",
+				"value" : "w8"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "w9",
+			"realName" : "w9",
+			"storage" : 
+			{
+				"registerNumber" : 106,
+				"type" : "register",
+				"value" : "w9"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i64"
+			}
+		},
+		{
+			"name" : "zero",
+			"realName" : "zero",
+			"storage" : 
+			{
+				"registerNumber" : 2,
+				"type" : "register",
+				"value" : "zero"
+			},
+			"type" : 
+			{
+				"llvmIr" : "i32"
+			}
+		}
+	],
+	"sectionVMA" : "0x0",
+	"segments" : 
+	[
+		{
+			"endAddr" : "0x7070",
+			"name" : "ROM",
+			"startAddr" : "0x0"
+		}
+	],
+	"structures" : [],
+	"time" : "01:10:15",
+	"tools" : 
+	[
+		{
+			"heuristics" : false,
+			"identicalSignificantNibbles" : 75,
+			"name" : "gc",
+			"percentage" : 40.106951871657756,
+			"totalSignificantNibbles" : 187,
+			"type" : "compiler"
+		}
+	],
+	"vtables" : []
+}

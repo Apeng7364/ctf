@@ -1,0 +1,8 @@
+Package: ca-bundle
+Version: 20180409-2
+Depends: libc
+Source: package/system/ca-certificates
+Section: base
+Architecture: all
+Installed-Size: 119645
+Description:  System CA certificates as a bundle
