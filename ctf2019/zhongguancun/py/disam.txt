@@ -1,0 +1,2030 @@
+magic 03f30d0a
+moddate 4c69545c (Fri Feb  1 23:44:12 2019)
+code
+   argcount 0
+   nlocals 1
+   stacksize 11
+   flags 0040
+   code
+      719e0288686e7e3a8c714f5d7c00006b02007327006413007c00006b0200
+      732a006417006ea9016ed8016e7e015e1b618c5a776b0200734000641900
+      53713d006e10007a1b5968466b02558f830100716b00535a000064020084
+      00005a0100640300716e005a03006e91006e33026e12013234920301463e
+      6e7194006410007d00007197006411007d0000719a006412006e10006e68
+      016e65016e620156692a915143687d000071c5006413007d000071c80064
+      14007d000071cb006415007d00006ebb006e37016e34016e31013c2b5266
+      7773ee00640f007c00006b020073f1006416007c00006b02006e69016e17
+      006ec30056884d1f21288d5f6405008400005a0400711b01016500006a08
+      006a0900640c00711e016e90006e950171850061413f3968460c8e714701
+      8400005a0200640400840000714a01640d007c00006b020071d300717c00
+      718e008c4419744b32706401007172018301005a0a006505006501007175
+      01670500830100714c006e17006e1d007e89737e130f7166719e01641600
+      7d000071a1016417007d000071a4016418007d00006e5e006e5e006e5b00
+      6e580043647870640900640a00640b0071c6016406008400005a05006500
+      0071290171b30047571b296d826d7c00006b020073ee016418007c00006b
+      020073f101640e007c00007133007152006e94002b665d5d28025b787117
+      026e18006a06006a0700650200640700640800711d026e650071ff01713b
+      0171aa006f62030a8814188c7349026411007c00006b0200734c02641400
+      7c00006b0200734f02641000710c00716500715a0171690174291f836573
+      72026415007c00006b02007375026412007c00006b0200712802712c016e
+      04000f030c706400006401006c0000719502650a00830100830100017154
+      016e120036734816535e6e1b00640d007d000071bf02640e007d000071c2
+      02640f007d000071790071bc0071ff0171ff01532a1b87
+3 4 5 6 7 8 9 10 11 45 46 47 48 49 50 67 68 69 70 71 72 73 74 75 113 114 115 116 117 118 119 120 157 158 159 160 161 162 163 206 207 208 209 210 244 245 246 247 248 249 250 251 280 281 282 289 290 291 292 293 294 295 296 333 334 335 336 337 338 339 376 377 378 379 380 381 382 383 423 424 425 426 457 458 459 460 461 462 463 500 501 502 503 504 505 506 507 532 533 534 544 545 546 547 548 549 550 551 594 595 596 597 598 632 633 634 635 664 665 666 667 668 669 709 710 711 712
+  1           0 JUMP_ABSOLUTE          670
+
+  3     >>   12 LOAD_FAST                0 (DIVIDER)
+             15 COMPARE_OP               2 (==)
+             18 POP_JUMP_IF_TRUE        39
+
+  9          21 LOAD_CONST              19 (1860581437)
+             24 LOAD_FAST                0 (DIVIDER)
+             27 COMPARE_OP               2 (==)
+
+ 14          30 POP_JUMP_IF_TRUE        42
+             33 LOAD_CONST              23 (3816944324L)
+             36 JUMP_FORWARD           425 (to 464)
+
+ 17     >>   39 JUMP_FORWARD           472 (to 514)
+        >>   42 JUMP_FORWARD           382 (to 427)
+        >>   51 COMPARE_OP               2 (==)
+             54 POP_JUMP_IF_TRUE        64
+
+ 38          57 LOAD_CONST              25 (None)
+             60 RETURN_VALUE        
+        >>   61 JUMP_ABSOLUTE           61
+        >>   64 JUMP_FORWARD            16 (to 83)
+        >>   76 CALL_FUNCTION            1
+             79 JUMP_ABSOLUTE          107
+        >>   82 RETURN_VALUE        
+        >>   83 STORE_NAME               0 (sys)
+             86 LOAD_CONST               2 (<code object str2hex at 00000000032D7DB0, file "enc.py", line 3>)
+             89 MAKE_FUNCTION            0
+             92 STORE_NAME               1 (str2hex)
+             95 LOAD_CONST               3 (<code object hex2str at 00000000032D7F30, file "enc.py", line 9>)
+             98 JUMP_ABSOLUTE          110
+        >>  101 STORE_NAME               3 (p_s)
+            104 JUMP_FORWARD           145 (to 252)
+        >>  107 JUMP_FORWARD           563 (to 673)
+        >>  110 JUMP_FORWARD           274 (to 387)
+        >>  121 JUMP_ABSOLUTE          148
+        >>  124 LOAD_CONST              16 (4084147187L)
+            127 STORE_FAST               0 (DIVIDER)
+            130 JUMP_ABSOLUTE          151
+        >>  133 LOAD_CONST              17 (3521152606L)
+            136 STORE_FAST               0 (DIVIDER)
+            139 JUMP_ABSOLUTE          154
+        >>  142 LOAD_CONST              18 (651787064)
+            145 JUMP_FORWARD            16 (to 164)
+        >>  148 JUMP_FORWARD           360 (to 511)
+        >>  151 JUMP_FORWARD           357 (to 511)
+        >>  154 JUMP_FORWARD           354 (to 511)
+        >>  164 STORE_FAST               0 (DIVIDER)
+            167 JUMP_ABSOLUTE          197
+        >>  170 LOAD_CONST              19 (1860581437)
+            173 STORE_FAST               0 (DIVIDER)
+            176 JUMP_ABSOLUTE          200
+        >>  179 LOAD_CONST              20 (2730391645L)
+            182 STORE_FAST               0 (DIVIDER)
+            185 JUMP_ABSOLUTE          203
+        >>  188 LOAD_CONST              21 (2694209818L)
+            191 STORE_FAST               0 (DIVIDER)
+            194 JUMP_FORWARD           187 (to 384)
+        >>  197 JUMP_FORWARD           311 (to 511)
+        >>  200 JUMP_FORWARD           308 (to 511)
+        >>  203 JUMP_FORWARD           305 (to 511)
+        >>  211 POP_JUMP_IF_TRUE       238
+            214 LOAD_CONST              15 (3168701571L)
+            217 LOAD_FAST                0 (DIVIDER)
+            220 COMPARE_OP               2 (==)
+            223 POP_JUMP_IF_TRUE       241
+            226 LOAD_CONST              22 (3715947653L)
+            229 LOAD_FAST                0 (DIVIDER)
+            232 COMPARE_OP               2 (==)
+            235 JUMP_FORWARD           361 (to 599)
+        >>  238 JUMP_FORWARD            23 (to 264)
+        >>  241 JUMP_FORWARD           195 (to 439)
+        >>  252 LOAD_CONST               5 (<code object p_f at 00000000032DF0B0, file "enc.py", line 17>)
+            255 MAKE_FUNCTION            0
+            258 STORE_NAME               4 (p_f)
+            261 JUMP_ABSOLUTE          283
+        >>  264 POP_TOP             
+            265 LOAD_NAME                0 (sys)
+            268 LOAD_ATTR                8 (stdin)
+            271 LOAD_ATTR                9 (read)
+            274 LOAD_CONST              12 (38)
+            277 JUMP_ABSOLUTE          286
+        >>  283 JUMP_FORWARD           405 (to 691)
+        >>  286 JUMP_ABSOLUTE          133
+        >>  297 JUMP_ABSOLUTE          327
+        >>  300 MAKE_FUNCTION            0
+            303 STORE_NAME               2 (hex2str)
+            306 LOAD_CONST               4 (<code object p_s at 00000000032DF2B0, file "enc.py", line 14>)
+            309 MAKE_FUNCTION            0
+            312 JUMP_ABSOLUTE          330
+        >>  315 LOAD_CONST              13 (4130330538L)
+            318 LOAD_FAST                0 (DIVIDER)
+            321 COMPARE_OP               2 (==)
+            324 JUMP_ABSOLUTE          211
+        >>  327 JUMP_ABSOLUTE          124
+        >>  330 JUMP_ABSOLUTE          142
+        >>  340 LOAD_CONST               1 (None)
+            343 JUMP_ABSOLUTE          370
+        >>  346 CALL_FUNCTION            1
+            349 STORE_NAME              10 (flag)
+            352 LOAD_NAME                5 (count)
+            355 LOAD_NAME                1 (str2hex)
+            358 JUMP_ABSOLUTE          373
+        >>  361 BUILD_LIST               5
+            364 CALL_FUNCTION            1
+            367 JUMP_ABSOLUTE           76
+        >>  370 JUMP_FORWARD            23 (to 396)
+        >>  373 JUMP_FORWARD            29 (to 405)
+        >>  384 JUMP_ABSOLUTE          414
+        >>  387 LOAD_CONST              22 (3715947653L)
+            390 STORE_FAST               0 (DIVIDER)
+            393 JUMP_ABSOLUTE          417
+        >>  396 LOAD_CONST              23 (3816944324L)
+            399 STORE_FAST               0 (DIVIDER)
+            402 JUMP_ABSOLUTE          420
+        >>  405 LOAD_CONST              24 (394367122)
+            408 STORE_FAST               0 (DIVIDER)
+            411 JUMP_FORWARD            94 (to 508)
+        >>  414 JUMP_FORWARD            94 (to 511)
+        >>  417 JUMP_FORWARD            91 (to 511)
+        >>  420 JUMP_FORWARD            88 (to 511)
+        >>  427 LOAD_CONST               9 (97)
+            430 LOAD_CONST              10 (103)
+            433 LOAD_CONST              11 (58)
+            436 JUMP_ABSOLUTE          454
+        >>  439 LOAD_CONST               6 (<code object count at 00000000032DF130, file "enc.py", line 20>)
+            442 MAKE_FUNCTION            0
+            445 STORE_NAME               5 (count)
+            448 LOAD_NAME                0 (sys)
+            451 JUMP_ABSOLUTE          297
+        >>  454 JUMP_ABSOLUTE          179
+        >>  464 LOAD_FAST                0 (DIVIDER)
+            467 COMPARE_OP               2 (==)
+            470 POP_JUMP_IF_TRUE       494
+            473 LOAD_CONST              24 (394367122)
+            476 LOAD_FAST                0 (DIVIDER)
+            479 COMPARE_OP               2 (==)
+            482 POP_JUMP_IF_TRUE       497
+            485 LOAD_CONST              14 (1627830889)
+            488 LOAD_FAST                0 (DIVIDER)
+            491 JUMP_ABSOLUTE           51
+        >>  494 JUMP_ABSOLUTE           82
+        >>  497 JUMP_FORWARD           148 (to 648)
+        >>  508 JUMP_ABSOLUTE          535
+        >>  511 JUMP_FORWARD            24 (to 538)
+        >>  514 LOAD_ATTR                6 (stdout)
+            517 LOAD_ATTR                7 (write)
+            520 LOAD_NAME                2 (hex2str)
+            523 LOAD_CONST               7 (102)
+            526 LOAD_CONST               8 (108)
+            529 JUMP_ABSOLUTE          541
+        >>  535 JUMP_ABSOLUTE          511
+        >>  538 JUMP_ABSOLUTE          315
+        >>  541 JUMP_ABSOLUTE          170
+        >>  552 POP_JUMP_IF_TRUE       585
+            555 LOAD_CONST              17 (3521152606L)
+            558 LOAD_FAST                0 (DIVIDER)
+            561 COMPARE_OP               2 (==)
+            564 POP_JUMP_IF_TRUE       588
+            567 LOAD_CONST              20 (2730391645L)
+            570 LOAD_FAST                0 (DIVIDER)
+            573 COMPARE_OP               2 (==)
+            576 POP_JUMP_IF_TRUE       591
+            579 LOAD_CONST              16 (4084147187L)
+            582 JUMP_ABSOLUTE           12
+        >>  585 JUMP_ABSOLUTE          101
+        >>  588 JUMP_ABSOLUTE          346
+        >>  591 JUMP_ABSOLUTE          361
+        >>  599 POP_JUMP_IF_TRUE       626
+            602 LOAD_CONST              21 (2694209818L)
+            605 LOAD_FAST                0 (DIVIDER)
+            608 COMPARE_OP               2 (==)
+            611 POP_JUMP_IF_TRUE       629
+            614 LOAD_CONST              18 (651787064)
+            617 LOAD_FAST                0 (DIVIDER)
+            620 COMPARE_OP               2 (==)
+            623 JUMP_ABSOLUTE          552
+        >>  626 JUMP_ABSOLUTE          300
+        >>  629 JUMP_FORWARD             4 (to 636)
+        >>  636 LOAD_CONST               0 (-1)
+            639 LOAD_CONST               1 (None)
+            642 IMPORT_NAME              0 (sys)
+            645 JUMP_ABSOLUTE          661
+        >>  648 LOAD_NAME               10 (flag)
+            651 CALL_FUNCTION            1
+            654 CALL_FUNCTION            1
+            657 POP_TOP             
+            658 JUMP_ABSOLUTE          340
+        >>  661 JUMP_FORWARD            18 (to 682)
+        >>  670 JUMP_FORWARD            27 (to 700)
+        >>  673 LOAD_CONST              13 (4130330538L)
+            676 STORE_FAST               0 (DIVIDER)
+            679 JUMP_ABSOLUTE          703
+        >>  682 LOAD_CONST              14 (1627830889)
+            685 STORE_FAST               0 (DIVIDER)
+            688 JUMP_ABSOLUTE          706
+        >>  691 LOAD_CONST              15 (3168701571L)
+            694 STORE_FAST               0 (DIVIDER)
+            697 JUMP_ABSOLUTE          121
+        >>  700 JUMP_ABSOLUTE          188
+        >>  703 JUMP_ABSOLUTE          511
+        >>  706 JUMP_ABSOLUTE          511
+719e020909090909090909097c00006b02007327006413007c00006b0200732a006417006ea9016ed8016e7e010909090909096b020073400064190053713d006e1000090909090909090909830100716b00535a00006402008400005a0100640300716e005a03006e91006e33026e120109090909090909097194006410007d00007197006411007d0000719a006412006e10006e68016e65016e6201090909090909097d000071c5006413007d000071c8006414007d000071cb006415007d00006ebb006e37016e34016e3101090909090973ee00640f007c00006b020073f1006416007c00006b02006e69016e17006ec30009090909090909096405008400005a0400711b01016500006a08006a0900640c00711e010909096e950171850009090909090909097147018400005a0200640400840000714a01640d007c00006b020071d300717c00718e00090909090909096401007172018301005a0a00650500650100717501670500830100714c006e17006e1d000909090909090909719e016416007d000071a1016417007d000071a4016418007d00006e5e006e5e006e5b006e580009090909640900640a00640b0071c6016406008400005a050065000071290171b300090909090909097c00006b020073ee016418007c00006b020073f101640e007c00007133007152006e940009090909090909097117026e18006a06006a0700650200640700640800711d0209090971ff01713b0171aa0009090909090909097349026411007c00006b0200734c026414007c00006b0200734f02641000710c00716500715a0171690109090909097372026415007c00006b02007375026412007c00006b0200712802712c016e0400090909096400006401006c0000719502650a00830100830100017154016e12000909090909096e1b00640d007d000071bf02640e007d000071c202640f007d000071790071bc0071ff0171ff0109090909
+   consts
+      -1
+      None
+      code
+         argcount 1
+         nlocals 4
+         stacksize 8
+         flags 0043
+         code
+            71900093574b1e7d7d03007129006407007d0300712c006408007d030071
+            2f006e0f006700006ed0007120007120007120006e1b005d4729035f6a00
+            007159007c0100537401007c0200830100715c006404007c03006e31016e
+            40006e46001d050d708887687181006404007d03007184006405007d0300
+            71870064060071080071200071200071200064842a5633746e1b00640100
+            7d030071b1006402007d030071b4006403007d0300716600717b00712000
+            7120003314055d466e6b020073ca006409005371c7006e0600544f713a65
+            5c5771ea008301000171ed0071f0007d02007c0100713a00717200711700
+            710e007805033d38607d0100781900711b01711e017c0000447121015d15
+            00712701712a0171d300710201716900717200711700711201719300710e
+            005a0b872b145a6401007c03006b02007354016405007c03006b02007357
+            016403007c03006e0e0071e1007140006757198d489335786b0200737d01
+            6406007c03006b02007380016407007c030071bd0071d7007123003a5452
+            193f8c6c6b020073ab016408007c03006b020073ae016402007c03006b02
+            0073b101713301710501710c01714400523e556f8e
+3 4 5 6 7 53 54 55 56 57 95 96 97 98 99 100 101 138 139 140 141 142 143 183 184 185 186 187 188 205 206 207 208 209 210 222 223 224 240 241 242 243 244 245 246 247 248 277 278 279 301 302 303 304 305 306 346 347 348 349 350 351 352 353 387 388 389 390 391 392 393 436 437 438 439 440
+  4           0 JUMP_ABSOLUTE          144
+        >>    8 STORE_FAST               3 (DIVIDER)
+             11 JUMP_ABSOLUTE           41
+        >>   14 LOAD_CONST               7 (3369192437L)
+             17 STORE_FAST               3 (DIVIDER)
+             20 JUMP_ABSOLUTE           44
+        >>   23 LOAD_CONST               8 (1696009061)
+             26 STORE_FAST               3 (DIVIDER)
+             29 JUMP_ABSOLUTE           47
+        >>   32 JUMP_FORWARD            15 (to 50)
+        >>   35 BUILD_LIST               0
+             38 JUMP_FORWARD           208 (to 249)
+        >>   41 JUMP_ABSOLUTE           32
+        >>   44 JUMP_ABSOLUTE           32
+        >>   47 JUMP_ABSOLUTE           32
+        >>   50 JUMP_FORWARD            27 (to 80)
+        >>   58 LOAD_ATTR                0 (append)
+             61 JUMP_ABSOLUTE           89
+        >>   64 LOAD_FAST                1 (ret)
+             67 RETURN_VALUE        
+        >>   68 LOAD_GLOBAL              1 (ord)
+             71 LOAD_FAST                2 (char)
+             74 CALL_FUNCTION            1
+             77 JUMP_ABSOLUTE           92
+        >>   80 LOAD_CONST               4 (1130474679)
+             83 LOAD_FAST                3 (DIVIDER)
+             86 JUMP_FORWARD           305 (to 394)
+        >>   89 JUMP_FORWARD            64 (to 156)
+        >>   92 JUMP_FORWARD            70 (to 165)
+        >>  102 JUMP_ABSOLUTE          129
+        >>  105 LOAD_CONST               4 (1130474679)
+            108 STORE_FAST               3 (DIVIDER)
+            111 JUMP_ABSOLUTE          132
+        >>  114 LOAD_CONST               5 (1927470101)
+            117 STORE_FAST               3 (DIVIDER)
+            120 JUMP_ABSOLUTE          135
+        >>  123 LOAD_CONST               6 (43201876)
+            126 JUMP_ABSOLUTE            8
+        >>  129 JUMP_ABSOLUTE           32
+        >>  132 JUMP_ABSOLUTE           32
+        >>  135 JUMP_ABSOLUTE           32
+        >>  144 JUMP_FORWARD            27 (to 174)
+        >>  147 LOAD_CONST               1 (3329702705L)
+            150 STORE_FAST               3 (DIVIDER)
+            153 JUMP_ABSOLUTE          177
+        >>  156 LOAD_CONST               2 (876313011)
+            159 STORE_FAST               3 (DIVIDER)
+            162 JUMP_ABSOLUTE          180
+        >>  165 LOAD_CONST               3 (3602648706L)
+            168 STORE_FAST               3 (DIVIDER)
+            171 JUMP_ABSOLUTE          102
+        >>  174 JUMP_ABSOLUTE          123
+        >>  177 JUMP_ABSOLUTE           32
+        >>  180 JUMP_ABSOLUTE           32
+        >>  189 COMPARE_OP               2 (==)
+            192 POP_JUMP_IF_TRUE       202
+            195 LOAD_CONST               9 (None)
+            198 RETURN_VALUE        
+        >>  199 JUMP_ABSOLUTE          199
+        >>  202 JUMP_FORWARD             6 (to 211)
+        >>  211 POP_BLOCK           
+            212 JUMP_ABSOLUTE          234
+        >>  215 CALL_FUNCTION            1
+            218 POP_TOP             
+            219 JUMP_ABSOLUTE          237
+        >>  225 STORE_FAST               2 (char)
+            228 LOAD_FAST                1 (ret)
+            231 JUMP_ABSOLUTE           58
+        >>  234 JUMP_ABSOLUTE          114
+        >>  237 JUMP_ABSOLUTE           23
+        >>  249 STORE_FAST               1 (ret)
+            252 SETUP_LOOP              25 (to 280)
+            255 JUMP_ABSOLUTE          283
+        >>  258 JUMP_ABSOLUTE          286
+        >>  261 LOAD_FAST                0 (string)
+            264 GET_ITER            
+            265 JUMP_ABSOLUTE          289
+        >>  268 FOR_ITER                21 (to 292)
+            271 JUMP_ABSOLUTE          295
+        >>  274 JUMP_ABSOLUTE          298
+        >>  280 JUMP_ABSOLUTE          258
+        >>  283 JUMP_ABSOLUTE          105
+        >>  286 JUMP_ABSOLUTE          114
+        >>  289 JUMP_ABSOLUTE           23
+        >>  292 JUMP_ABSOLUTE          274
+        >>  295 JUMP_ABSOLUTE          147
+        >>  298 JUMP_ABSOLUTE           14
+        >>  307 LOAD_CONST               1 (3329702705L)
+            310 LOAD_FAST                3 (DIVIDER)
+            313 COMPARE_OP               2 (==)
+            316 POP_JUMP_IF_TRUE       340
+            319 LOAD_CONST               5 (1927470101)
+            322 LOAD_FAST                3 (DIVIDER)
+            325 COMPARE_OP               2 (==)
+            328 POP_JUMP_IF_TRUE       343
+            331 LOAD_CONST               3 (3602648706L)
+            334 LOAD_FAST                3 (DIVIDER)
+            337 JUMP_FORWARD            14 (to 354)
+        >>  340 JUMP_ABSOLUTE          225
+        >>  343 JUMP_ABSOLUTE           64
+        >>  354 COMPARE_OP               2 (==)
+            357 POP_JUMP_IF_TRUE       381
+            360 LOAD_CONST               6 (43201876)
+            363 LOAD_FAST                3 (DIVIDER)
+            366 COMPARE_OP               2 (==)
+            369 POP_JUMP_IF_TRUE       384
+            372 LOAD_CONST               7 (3369192437L)
+            375 LOAD_FAST                3 (DIVIDER)
+            378 JUMP_ABSOLUTE          189
+        >>  381 JUMP_ABSOLUTE          215
+        >>  384 JUMP_ABSOLUTE           35
+        >>  394 COMPARE_OP               2 (==)
+            397 POP_JUMP_IF_TRUE       427
+            400 LOAD_CONST               8 (1696009061)
+            403 LOAD_FAST                3 (DIVIDER)
+            406 COMPARE_OP               2 (==)
+            409 POP_JUMP_IF_TRUE       430
+            412 LOAD_CONST               2 (876313011)
+            415 LOAD_FAST                3 (DIVIDER)
+            418 COMPARE_OP               2 (==)
+            421 POP_JUMP_IF_TRUE       433
+            424 JUMP_ABSOLUTE          307
+        >>  427 JUMP_ABSOLUTE          261
+        >>  430 JUMP_ABSOLUTE          268
+        >>  433 JUMP_ABSOLUTE           68
+71900009090909097d03007129006407007d0300712c006408007d0300712f006e0f006700006ed0007120007120007120006e1b0009090909096a00007159007c0100537401007c0200830100715c006404007c03006e31016e40006e4600090909090909097181006404007d03007184006405007d03007187006406007108007120007120007120000909090909096e1b006401007d030071b1006402007d030071b4006403007d0300716600717b007120007120000909090909096b020073ca006409005371c7006e06000909090909095771ea008301000171ed000909097d02007c0100713a007172007117000909090909090909097d0100781900711b01711e017c0000447121015d1500712701712a01090909710201716900717200711700711201719300710e000909090909096401007c03006b02007354016405007c03006b02007357016403007c03006e0e0071e10071400009090909090909096b0200737d016406007c03006b02007380016407007c030071bd0071d700712300090909090909096b020073ab016408007c03006b020073ae016402007c03006b020073b101713301710501710c017144000909090909
+         consts
+            None
+            3329702705L
+            876313011
+            3602648706L
+            1130474679
+            1927470101
+            43201876
+            3369192437L
+            1696009061
+            None
+         names ('append', 'ord')
+         varnames ('string', 'ret', 'char', 'DIVIDER')
+         freevars ()
+         cellvars ()
+         filename 'enc.py'
+         name 'str2hex'
+         firstlineno 3
+         lnotab 000106010d011701
+      code
+         argcount 1
+         nlocals 3
+         stacksize 9
+         flags 0043
+         code
+            71ad0040322a4018645a4b7a7c02006b0200731c00640800537119006e5f
+            001932324b0f3c555c866a00006700007c00007146006406007c02006b02
+            007349006404006e0d006ea8006ec2000913503b293f777c02006b020073
+            6e006403007c02006b02007371006402006ec4006e1f006e130041730c1b
+            5e5a447196005d1800719c00719f005e020071a20071a500640100712800
+            6e46007184006e11006e46006e3a006e400084920a34856e18006402007d
+            020071cb006403007d020071ce006404006e110071c2006e3d006e3a0038
+            028d8f3e837d5c7d020071fa006405007d020071fd006406007d02007100
+            016407007d02006e0e006e0e006e0b006e08005e6e4019747124016e1900
+            830100537d01007401007c0100830100712a01717a00710b0171340071b9
+            0083460262707c02006b0200734d016407007c02006b0200735001640500
+            710c00711201717a0086721888015979
+3 4 5 6 7 8 9 10 11 31 32 33 34 35 36 37 38 39 76 77 78 79 80 81 82 116 117 118 119 120 121 141 142 143 165 166 167 168 169 170 171 172 209 210 211 212 213 214 215 216 259 260 261 262 263 289 290 291 301 302 303 304 305 339 340 341 342 343 344 345
+ 10           0 JUMP_ABSOLUTE          173
+        >>   12 LOAD_FAST                2 (DIVIDER)
+             15 COMPARE_OP               2 (==)
+             18 POP_JUMP_IF_TRUE        28
+             21 LOAD_CONST               8 (None)
+             24 RETURN_VALUE        
+        >>   25 JUMP_ABSOLUTE           25
+        >>   28 JUMP_FORWARD            95 (to 126)
+        >>   40 LOAD_ATTR                0 (join)
+             43 BUILD_LIST               0
+             46 LOAD_FAST                0 (data)
+             49 JUMP_ABSOLUTE           70
+        >>   52 LOAD_CONST               6 (591856208)
+             55 LOAD_FAST                2 (DIVIDER)
+             58 COMPARE_OP               2 (==)
+             61 POP_JUMP_IF_TRUE        73
+             64 LOAD_CONST               4 (2267503279L)
+             67 JUMP_FORWARD            13 (to 83)
+        >>   70 JUMP_FORWARD           168 (to 241)
+        >>   73 JUMP_FORWARD           194 (to 270)
+        >>   83 LOAD_FAST                2 (DIVIDER)
+             86 COMPARE_OP               2 (==)
+             89 POP_JUMP_IF_TRUE       110
+             92 LOAD_CONST               3 (522386015)
+             95 LOAD_FAST                2 (DIVIDER)
+             98 COMPARE_OP               2 (==)
+            101 POP_JUMP_IF_TRUE       113
+            104 LOAD_CONST               2 (2195903898L)
+            107 JUMP_FORWARD           196 (to 306)
+        >>  110 JUMP_FORWARD            31 (to 144)
+        >>  113 JUMP_FORWARD            19 (to 135)
+        >>  122 GET_ITER            
+            123 JUMP_ABSOLUTE          150
+        >>  126 FOR_ITER                24 (to 153)
+            129 JUMP_ABSOLUTE          156
+        >>  132 JUMP_ABSOLUTE          159
+        >>  135 LIST_APPEND              2
+            138 JUMP_ABSOLUTE          162
+        >>  144 LOAD_CONST               1 ('')
+            147 JUMP_ABSOLUTE           40
+        >>  150 JUMP_FORWARD            70 (to 223)
+        >>  153 JUMP_ABSOLUTE          132
+        >>  156 JUMP_FORWARD            17 (to 176)
+        >>  159 JUMP_FORWARD            70 (to 232)
+        >>  162 JUMP_FORWARD            58 (to 223)
+        >>  173 JUMP_FORWARD            24 (to 200)
+        >>  176 LOAD_CONST               2 (2195903898L)
+            179 STORE_FAST               2 (DIVIDER)
+            182 JUMP_ABSOLUTE          203
+        >>  185 LOAD_CONST               3 (522386015)
+            188 STORE_FAST               2 (DIVIDER)
+            191 JUMP_ABSOLUTE          206
+        >>  194 LOAD_CONST               4 (2267503279L)
+            197 JUMP_FORWARD            17 (to 217)
+        >>  200 JUMP_ABSOLUTE          194
+        >>  203 JUMP_FORWARD            61 (to 267)
+        >>  206 JUMP_FORWARD            58 (to 267)
+        >>  217 STORE_FAST               2 (DIVIDER)
+            220 JUMP_ABSOLUTE          250
+        >>  223 LOAD_CONST               5 (1893071141)
+            226 STORE_FAST               2 (DIVIDER)
+            229 JUMP_ABSOLUTE          253
+        >>  232 LOAD_CONST               6 (591856208)
+            235 STORE_FAST               2 (DIVIDER)
+            238 JUMP_ABSOLUTE          256
+        >>  241 LOAD_CONST               7 (1844009326)
+            244 STORE_FAST               2 (DIVIDER)
+            247 JUMP_FORWARD            14 (to 264)
+        >>  250 JUMP_FORWARD            14 (to 267)
+        >>  253 JUMP_FORWARD            11 (to 267)
+        >>  256 JUMP_FORWARD             8 (to 267)
+        >>  264 JUMP_ABSOLUTE          292
+        >>  267 JUMP_FORWARD            25 (to 295)
+        >>  270 CALL_FUNCTION            1
+            273 RETURN_VALUE        
+        >>  274 STORE_FAST               1 (d)
+            277 LOAD_GLOBAL              1 (chr)
+            280 LOAD_FAST                1 (d)
+            283 CALL_FUNCTION            1
+            286 JUMP_ABSOLUTE          298
+        >>  292 JUMP_ABSOLUTE          267
+        >>  295 JUMP_ABSOLUTE           52
+        >>  298 JUMP_ABSOLUTE          185
+        >>  306 LOAD_FAST                2 (DIVIDER)
+            309 COMPARE_OP               2 (==)
+            312 POP_JUMP_IF_TRUE       333
+            315 LOAD_CONST               7 (1844009326)
+            318 LOAD_FAST                2 (DIVIDER)
+            321 COMPARE_OP               2 (==)
+            324 POP_JUMP_IF_TRUE       336
+            327 LOAD_CONST               5 (1893071141)
+            330 JUMP_ABSOLUTE           12
+        >>  333 JUMP_ABSOLUTE          274
+        >>  336 JUMP_ABSOLUTE          122
+71ad000909090909090909097c02006b0200731c00640800537119006e5f000909090909090909096a00006700007c00007146006406007c02006b02007349006404006e0d006ea8006ec200090909090909097c02006b0200736e006403007c02006b02007371006402006ec4006e1f006e1300090909090909447196005d1800719c00719f005e020071a2000909096401007128006e46007184006e11006e46006e3a0009090909090909096e18006402007d020071cb006403007d020071ce006404006e110071c2006e3d006e3a0009090909090909097d020071fa006405007d020071fd006406007d02007100016407007d02006e0e006e0e006e0b006e080009090909097124016e1900830100537d01007401007c0100830100712a01090909710b0171340071b90009090909097c02006b0200734d016407007c02006b0200735001640500710c00711201717a0009090909090909
+         consts
+            None
+            ''
+            2195903898L
+            522386015
+            2267503279L
+            1893071141
+            591856208
+            1844009326
+            None
+         names ('join', 'chr')
+         varnames ('data', 'd', 'DIVIDER')
+         freevars ()
+         cellvars ()
+         filename 'enc.py'
+         name 'hex2str'
+         firstlineno 9
+         lnotab 0001
+      code
+         argcount 0
+         nlocals 1
+         stacksize 14
+         flags 0043
+         code
+            71f9005b52874241665e585d7322006409007c00006b0200732500640b00
+            53711f006e42006eb1003a3c376b7147006409007d0000714a00640a007d
+            0000714d006e0c006e85007141007141007141006e5700653d185c536401
+            006401006405006708007176007400006a01006a02007403006e2e006e83
+            0092343b5b837399006407007c00006b0200739c006408007c00006b0200
+            710c006e30007158004e52673b6b64010071c200640a007c00006b020073
+            c5006406007c00006b0200717e00712f0071570058570378830100830100
+            0164000071eb0064020064030064030064040071ee007157007138006e14
+            0049891d37361c675b6e1b006406007d0000711a016407007d0000711d01
+            6408007d0000712c00710e0171410071410068537a7d5d
+3 4 5 6 7 8 9 10 11 40 41 42 43 68 69 70 83 84 85 86 121 122 123 124 125 159 160 161 162 163 200 201 202 203 232 233 234 241 242 243 244 245 246 247 248 288 289 290 291 292
+ 15           0 JUMP_ABSOLUTE          249
+        >>   12 POP_JUMP_IF_TRUE        34
+             15 LOAD_CONST               9 (3126208033L)
+             18 LOAD_FAST                0 (DIVIDER)
+             21 COMPARE_OP               2 (==)
+             24 POP_JUMP_IF_TRUE        37
+             27 LOAD_CONST              11 (None)
+             30 RETURN_VALUE        
+        >>   31 JUMP_ABSOLUTE           31
+        >>   34 JUMP_FORWARD            66 (to 103)
+        >>   37 JUMP_FORWARD           177 (to 217)
+        >>   44 JUMP_ABSOLUTE           71
+        >>   47 LOAD_CONST               9 (3126208033L)
+             50 STORE_FAST               0 (DIVIDER)
+             53 JUMP_ABSOLUTE           74
+        >>   56 LOAD_CONST              10 (1058109993)
+             59 STORE_FAST               0 (DIVIDER)
+             62 JUMP_ABSOLUTE           77
+        >>   65 JUMP_FORWARD            12 (to 80)
+        >>   71 JUMP_ABSOLUTE           65
+        >>   74 JUMP_ABSOLUTE           65
+        >>   77 JUMP_ABSOLUTE           65
+        >>   80 JUMP_FORWARD            87 (to 170)
+        >>   87 RETURN_VALUE        
+        >>   88 LOAD_CONST               1 (115)
+             91 LOAD_CONST               1 (115)
+             94 LOAD_CONST               5 (33)
+             97 BUILD_LIST               8
+            100 JUMP_ABSOLUTE          118
+        >>  103 LOAD_GLOBAL              0 (sys)
+            106 LOAD_ATTR                1 (stdout)
+            109 LOAD_ATTR                2 (write)
+            112 LOAD_GLOBAL              3 (hex2str)
+            115 JUMP_FORWARD            46 (to 164)
+        >>  118 JUMP_FORWARD           131 (to 252)
+        >>  126 POP_JUMP_IF_TRUE       153
+            129 LOAD_CONST               7 (3209296114L)
+            132 LOAD_FAST                0 (DIVIDER)
+            135 COMPARE_OP               2 (==)
+            138 POP_JUMP_IF_TRUE       156
+            141 LOAD_CONST               8 (2336958930L)
+            144 LOAD_FAST                0 (DIVIDER)
+            147 COMPARE_OP               2 (==)
+            150 JUMP_ABSOLUTE           12
+        >>  153 JUMP_FORWARD            48 (to 204)
+        >>  156 JUMP_ABSOLUTE           88
+        >>  164 LOAD_CONST               1 (115)
+            167 JUMP_ABSOLUTE          194
+        >>  170 LOAD_CONST              10 (1058109993)
+            173 LOAD_FAST                0 (DIVIDER)
+            176 COMPARE_OP               2 (==)
+            179 POP_JUMP_IF_TRUE       197
+            182 LOAD_CONST               6 (3760418592L)
+            185 LOAD_FAST                0 (DIVIDER)
+            188 COMPARE_OP               2 (==)
+            191 JUMP_ABSOLUTE          126
+        >>  194 JUMP_ABSOLUTE           47
+        >>  197 JUMP_ABSOLUTE           87
+        >>  204 CALL_FUNCTION            1
+            207 CALL_FUNCTION            1
+            210 POP_TOP             
+            211 LOAD_CONST               0 (None)
+            214 JUMP_ABSOLUTE          235
+        >>  217 LOAD_CONST               2 (117)
+            220 LOAD_CONST               3 (99)
+            223 LOAD_CONST               3 (99)
+            226 LOAD_CONST               4 (101)
+            229 JUMP_ABSOLUTE          238
+        >>  235 JUMP_ABSOLUTE           56
+        >>  238 JUMP_FORWARD            20 (to 261)
+        >>  249 JUMP_FORWARD            27 (to 279)
+        >>  252 LOAD_CONST               6 (3760418592L)
+            255 STORE_FAST               0 (DIVIDER)
+            258 JUMP_ABSOLUTE          282
+        >>  261 LOAD_CONST               7 (3209296114L)
+            264 STORE_FAST               0 (DIVIDER)
+            267 JUMP_ABSOLUTE          285
+        >>  270 LOAD_CONST               8 (2336958930L)
+            273 STORE_FAST               0 (DIVIDER)
+            276 JUMP_ABSOLUTE           44
+        >>  279 JUMP_ABSOLUTE          270
+        >>  282 JUMP_ABSOLUTE           65
+        >>  285 JUMP_ABSOLUTE           65
+71f9000909090909090909097322006409007c00006b0200732500640b0053711f006e42006eb100090909097147006409007d0000714a00640a007d0000714d006e0c000909097141007141007141006e570009090909536401006401006405006708007176007400006a01006a02007403006e2e006e830009090909097399006407007c00006b0200739c006408007c00006b0200710c006e3000715800090909090964010071c200640a007c00006b020073c5006406007c00006b0200717e00712f00715700090909098301008301000164000071eb0064020064030064030064040071ee000909097138006e140009090909090909096e1b006406007d0000711a016407007d0000711d016408007d0000712c00710e017141007141000909090909
+         consts
+            None
+            115
+            117
+            99
+            101
+            33
+            3760418592L
+            3209296114L
+            2336958930L
+            3126208033L
+            1058109993
+            None
+         names ('sys', 'stdout', 'write', 'hex2str')
+         varnames ('DIVIDER',)
+         freevars ()
+         cellvars ()
+         filename 'enc.py'
+         name 'p_s'
+         firstlineno 14
+         lnotab 0001
+      code
+         argcount 0
+         nlocals 1
+         stacksize 11
+         flags 0043
+         code
+            71080036471e5d776e1b006406007d00007129006407007d0000712c0064
+            08007d00006e0e007114006e14006e11001c335f05637150006409007d00
+            007153006e1300830100830100016400006e7c007140007140006e530004
+            3b394243466c7c00006b02007381006407007c00006b0200738400640800
+            7c00006b02006e0a007143006e480042878792739500640a00537192006e
+            13004d464a0343676364040064050067050071be00536406007c00006b02
+            0073c1006409007160007137006e1d000a54924b1a291c8671ea00740000
+            6a01006a020074030064010071ed00640200640300719f00711d00710b00
+            03041d68488e
+3 4 5 6 7 47 48 49 50 51 89 90 91 92 93 94 95 135 136 137 138 152 153 154 155 156 157 158 196 197 198 199 200 201 202 203 240 241 242 243 244 245
+ 18           0 JUMP_ABSOLUTE            8
+        >>    8 JUMP_FORWARD            27 (to 38)
+        >>   11 LOAD_CONST               6 (2126555747)
+             14 STORE_FAST               0 (DIVIDER)
+             17 JUMP_ABSOLUTE           41
+        >>   20 LOAD_CONST               7 (4259262148L)
+             23 STORE_FAST               0 (DIVIDER)
+             26 JUMP_ABSOLUTE           44
+        >>   29 LOAD_CONST               8 (1224782404)
+             32 STORE_FAST               0 (DIVIDER)
+             35 JUMP_FORWARD            14 (to 52)
+        >>   38 JUMP_ABSOLUTE           20
+        >>   41 JUMP_FORWARD            20 (to 64)
+        >>   44 JUMP_FORWARD            17 (to 64)
+        >>   52 JUMP_ABSOLUTE           80
+        >>   55 LOAD_CONST               9 (3314295949L)
+             58 STORE_FAST               0 (DIVIDER)
+             61 JUMP_ABSOLUTE           83
+        >>   64 JUMP_FORWARD            19 (to 86)
+        >>   67 CALL_FUNCTION            1
+             70 CALL_FUNCTION            1
+             73 POP_TOP             
+             74 LOAD_CONST               0 (None)
+             77 JUMP_FORWARD           124 (to 204)
+        >>   80 JUMP_ABSOLUTE           64
+        >>   83 JUMP_ABSOLUTE           64
+        >>   86 JUMP_FORWARD            83 (to 172)
+        >>   96 LOAD_FAST                0 (DIVIDER)
+             99 COMPARE_OP               2 (==)
+            102 POP_JUMP_IF_TRUE       129
+            105 LOAD_CONST               7 (4259262148L)
+            108 LOAD_FAST                0 (DIVIDER)
+            111 COMPARE_OP               2 (==)
+            114 POP_JUMP_IF_TRUE       132
+            117 LOAD_CONST               8 (1224782404)
+            120 LOAD_FAST                0 (DIVIDER)
+            123 COMPARE_OP               2 (==)
+            126 JUMP_FORWARD            10 (to 139)
+        >>  129 JUMP_ABSOLUTE           67
+        >>  132 JUMP_FORWARD            72 (to 207)
+        >>  139 POP_JUMP_IF_TRUE       149
+            142 LOAD_CONST              10 (None)
+            145 RETURN_VALUE        
+        >>  146 JUMP_ABSOLUTE          146
+        >>  149 JUMP_FORWARD            19 (to 171)
+        >>  159 LOAD_CONST               4 (108)
+            162 LOAD_CONST               5 (33)
+            165 BUILD_LIST               5
+            168 JUMP_ABSOLUTE          190
+        >>  171 RETURN_VALUE        
+        >>  172 LOAD_CONST               6 (2126555747)
+            175 LOAD_FAST                0 (DIVIDER)
+            178 COMPARE_OP               2 (==)
+            181 POP_JUMP_IF_TRUE       193
+            184 LOAD_CONST               9 (3314295949L)
+            187 JUMP_ABSOLUTE           96
+        >>  190 JUMP_ABSOLUTE           55
+        >>  193 JUMP_FORWARD            29 (to 225)
+        >>  204 JUMP_ABSOLUTE          234
+        >>  207 LOAD_GLOBAL              0 (sys)
+            210 LOAD_ATTR                1 (stdout)
+            213 LOAD_ATTR                2 (write)
+            216 LOAD_GLOBAL              3 (hex2str)
+            219 LOAD_CONST               1 (102)
+            222 JUMP_ABSOLUTE          237
+        >>  225 LOAD_CONST               2 (97)
+            228 LOAD_CONST               3 (105)
+            231 JUMP_ABSOLUTE          159
+        >>  234 JUMP_ABSOLUTE           29
+        >>  237 JUMP_ABSOLUTE           11
+71080009090909096e1b006406007d00007129006407007d0000712c006408007d00006e0e007114006e14006e110009090909097150006409007d00007153006e1300830100830100016400006e7c007140007140006e5300090909090909097c00006b02007381006407007c00006b02007384006408007c00006b02006e0a007143006e480009090909739500640a00537192006e13000909090909090964040064050067050071be00536406007c00006b020073c1006409007160007137006e1d00090909090909090971ea007400006a01006a020074030064010071ed00640200640300719f00711d00710b00090909090909
+         consts
+            None
+            102
+            97
+            105
+            108
+            33
+            2126555747
+            4259262148L
+            1224782404
+            3314295949L
+            None
+         names ('sys', 'stdout', 'write', 'hex2str')
+         varnames ('DIVIDER',)
+         freevars ()
+         cellvars ()
+         filename 'enc.py'
+         name 'p_f'
+         firstlineno 17
+         lnotab 0001
+      code
+         argcount 1
+         nlocals 8
+         stacksize 42
+         flags 0043
+         code
+            717b097e1a44647d070071280064cb007d0700712b0064cc007d0700712e
+            0064cd007d07006e84086e37046e34046e31042b32053b84642c00715100
+            646700646800646900646a00646b007154006eaf086e17006e2702370336
+            551c84546f717a0064ad007d0700717d0064ae007d070071800064af006e
+            5a076ee5036ee2036edf03693437375a64060064070064080064090071a1
+            007c0500197c00006e4b0b6ec20a5d044366646c00646d00646e00646f00
+            64700071c300644b00644c006e62046eca082b32444f623f346f64bf007d
+            070071ec0064c0007d070071ef0064c1007d070071f2006e3b016e73036e
+            70036e6d035753526f8664be007c07006b0200731501649e007c07006b02
+            007318016eec006e16046e420418534e5b7c07006b020073400164b1007c
+            07006b020073430164a4007c07006b02006eec026eb00a6e25093e607888
+            3b59775a647f00648000648100648200648300716f016484006485006486
+            007172016e3b036e68066ee20a4b736d938588719c0164bc007d0700719f
+            0164bd007d070071a20164be007d070071a50171ce006ec3026ec0026ebd
+            026eba021b051b73835f6e7e637c07006b020073cf0164ca007c07006b02
+            0073d20164d0007c07006e16096eb5066ea808546b747c3b6364240071f6
+            01644d00644e00644f0064500064510071f901714e016eea0571ce006c37
+            4a835f64ba007c07006b0200731c0264ce007c07006b0200731f026e3204
+            713c006e97028740201e8e64c2007d070071450264c3007d070071480264
+            c4007d0700714b026e39006e1a026e17026e14024f67363d0c789264af00
+            7c07006b0200737002649b007c07006b02007373026ec9086ecb036eb400
+            7e4f177c4419877e64c5007d070071990264c6007d0700719c0264c7007d
+            07006e7f096ec6016ec3016b1a4d8e7164b8007c07006b020073bf0264cb
+            007c07006b020073c2026ebc026eec006e5900145d03876664aa007d0700
+            71e50264ab007d070071e80264ac007d0700715f006e7a016e7701204939
+            5f5e71730c0364c3007c07006b0200730f0364c5007c07006b02006eee01
+            6e18066e5301553b68206577527185713603643e00643f00644000713903
+            191783010001713c036e59076e3f086e8408711f00861754602a497c9264
+            cd007c07006b020073620364a0007c07006b02007365036e6e006ee0066e
+            04047c0c1801424e567771910364a7007d070071940364a8007d07007197
+            0364a9007d0700719a0371ca026ece006ecb006ec8006ec5007d525a8670
+            648c00648d00648e0071c0037d0400780f0071c60371c9037c01006e4404
+            71ca0271b7036e90006eec049205179264c6007c07006b020073eb0364a5
+            007c07006b020073ee0371fa006ee5066e3e02851303695a740300830000
+            01710f047400006473008301007112046e18057162006ebd074a194f7c35
+            3b351d8264d200537122045f3a040d03526373470464a7007c07006b0200
+            734a0464aa007c07006b020071f1026e54067197006d733f0c5e5f7d0700
+            71710464d1007d07007174046e12006456006457006458006e0802716204
+            7162046e3c025b0a385b7c07006b0200739f04649d007c07006b020073a2
+            0464b6007c07006b02006e2d026ebc026e69031f404a738e640d00640e00
+            640f0064100071c40419147c020071c7046e470571d302717303376d7d40
+            52935d7464020064030064040064050071f304645d00645e00645f006460
+            00646100711b036ebc02931a668373180564a8007c07006b0200731b0564
+            c2007c07006b0200731e056efc0571a8006eed0471e1011e785682672600
+            7d02007141056e1300714705714a05640000536448006e7a057127027134
+            056e3404716200508d634d508c177c03007c0500716f05645900645a0064
+            5b00645c0071720571a8006e150471d70060558d64888964c1007c07006b
+            020073990564b3007c07006b0200739c0564c700717e046e91016edd0009
+            56777c7c07006b020073c105649f007c07006b020073c40564d1007c0700
+            6e0f006e75016ef203595641474b408952726b020073ee0564ac007c0700
+            6b020073f10564a3007c07006b02006e0c007100046e0c036f7c2086835b
+            73180664b5007c07006b0200731b0664ad007c07006b0200731e06715502
+            6e1e046e890071370514915c4813282b5d7d060071420664160064170064
+            1800641900714506147153056e50056ecc002a505d49679264bf007c0700
+            6b0200736c0664b4007c07006b0200736f0664cc0071b1016ea3026e1901
+            28370036668d66719706643600643700643800643900643a00719a066462
+            006463006e16036e2f056e6e001783387764550071c206641a00641b0064
+            1c00641d0071c50664bc007c07006b02006e1903713002711600475c0a86
+            73ed0664b0007c07006b020073f00664a1007c07006b020073f30664c000
+            6ee9016e6c02716001714e01186418618d7e1f5c77711a0764b3007d0700
+            711d0764b4007d070071200764b5006e89007162047162047162046a550c
+            154d4471714807647700647800647900714b07640a00640b00640c00714e
+            0771f6036e5e0071dc026e7001321d610d7a838e6415007172077c050019
+            147c00007c050071750764010071d2046e29046e37016d4d1e6864320064
+            3300643400643500719707643b00643c00643d006e9b0271020754565a4f
+            054e70686d7d070071c40764b6007d070071c70764b7007d070071ca0764
+            b8007d07006e9f0371620471620471620447471d05678e647d070071f507
+            64b0007d070071f80764b1007d070071fb0764b2007d070071ff06716204
+            7162047162042928299366667c0500197c00007120086441006442006443
+            006444007123087188007190026e3a04670429686b0200734b08649a007c
+            07006b0200734e0864ab007c07006b020073510871470371ba0371f6036e
+            c301328d036164a6007c07006b020073730864a9007c07006b0200737608
+            711e0471ba006eed00435229286b7c04006a0100719f08641e00641f0064
+            200064210071a208648a00648b0071a2036e82036e88035c6c331f298992
+            71c70864ce007d070071ca0864cf007d070071cd0864d000715304716204
+            71620471620488911a1c62717c07006b020073f40864bb007c07006b0200
+            73f70864c9007c0700712a0871e104718e068217770f7d93647a00647b00
+            647c00647d00647e00711e0964520064530064540071a1066e2d031f7750
+            488769648f00649000649100649200649300714809642800642900642a00
+            642b00713600717c033a60777e0c8c3a8c7d0300670000716c0974020083
+            000001716f09643100717c0771bb0771900100135635184f62176f6e1e00
+            649a007d0700719f09649b007d070071a209649c007d070071a5096e2402
+            6ea602716204716204716204143f61556664640064650064660071cc0944
+            71cf096497006498006499006726007129066ea001711f00630c4f5d3d15
+            774e5d73fc0964ae007c07006b020073ff0964b2007c07006b020073020a
+            64b90071a305713b056ec20071bd0987032a4c6166649400649500649600
+            71260a64110064120064130064140071580771ec078644898663284a7d82
+            71510a5771540a64450064460064470071570a5d1200715d0a71600a6e1a
+            00710d0071b808717e01714b0a718702718701322a405649775782642500
+            6426006726007d010064270071860a64220064230071db0171390221691d
+            5d745b71ad0a64870064880064890071b00a7c04007c06006b020072b30a
+            712a077187016e6801717e096d8d8d6171644900644a0071d90a642d0064
+            2e00642f0064300071dc0a7d0500717e086ecb0071850328133b35856a6b
+            020073060b64a2007c07006b020073090b64b7007c07006b0200730c0b71
+            580871aa0471920a718800325a5c8d5b64bd007c07006b0200732f0b649c
+            007c07006b020073320b71a40271350a6eca00891a365a64c4007c07006b
+            020073570b64c8007c07006b0200735a0b64cf00711f0171390971960892
+            0462371f7c71810b64b9007d070071840b64ba007d070071870b64bb007d
+            0700717b017162047162047162044a033a6e8c7d070071b00b64a4007d07
+            0071b30b64a5007d070071b60b64a6007d07007170037162047162047162
+            04213c280c593f88649d007d070071de0b649e007d070071e10b649f007d
+            070071e40b6e67007162047162047162041e6501035e7c050019710b0c64
+            7400647500647600710e0c64710064720067260071530971740071e0005f
+            2067853e095a71330c64c8007d070071360c64c9007d070071390c64ca00
+            710700716204716204716204334f4c3e40090b606c64a0007d070071660c
+            64a1007d070071690c64a2007d0700716c0c64a300718f0b716204716204
+            7162047d6b891a52147e5865
+3 4 5 6 49 50 51 52 53 78 79 80 87 88 89 90 91 92 93 94 131 132 133 134 135 164 165 166 167 198 199 200 201 202 203 204 205 233 234 235 245 246 247 248 249 283 284 285 286 326 327 328 329 330 331 332 333 364 365 366 373 374 375 376 377 378 409 410 411 424 425 426 427 428 429 430 431 432 469 470 471 472 473 474 499 500 501 508 509 510 511 512 546 547 548 549 550 578 579 580 590 591 592 593 594 595 596 630 631 632 633 634 635 636 637 671 672 673 674 675 709 710 711 712 713 747 748 749 750 751 752 786 787 788 789 790 791 792 793 794 819 820 821 831 832 833 834 835 836 837 838 872 873 874 875 876 877 878 879 910 911 912 925 926 927 928 929 972 973 974 975 1009 1010 1011 1012 1013 1036 1037 1038 1045 1046 1047 1048 1049 1050 1051 1052 1053 1061 1062 1063 1064 1065 1066 1067 1101 1102 1103 1104 1105 1106 1146 1147 1148 1149 1189 1190 1191 1192 1193 1217 1218 1219 1226 1227 1228 1229 1230 1231 1232 1233 1270 1271 1272 1273 1313 1314 1315 1316 1329 1330 1331 1351 1352 1353 1357 1358 1359 1360 1361 1362 1388 1389 1390 1397 1398 1399 1400 1401 1402 1439 1440 1441 1442 1479 1480 1481 1482 1483 1484 1485 1486 1487 1524 1525 1526 1527 1528 1529 1569 1570 1571 1572 1573 1574 1575 1576 1608 1609 1610 1611 1612 1613 1650 1651 1652 1653 1654 1655 1656 1693 1694 1695 1696 1736 1737 1738 1739 1782 1783 1784 1785 1786 1787 1788 1789 1790 1827 1828 1829 1830 1831 1832 1833 1861 1862 1863 1873 1874 1875 1876 1877 1878 1879 1912 1913 1914 1915 1946 1947 1948 1949 1950 1951 1952 1953 1954 1997 1998 1999 2000 2001 2002 2003 2046 2047 2048 2049 2050 2051 2077 2078 2079 2086 2087 2088 2089 2132 2133 2134 2135 2169 2170 2171 2172 2173 2213 2214 2215 2216 2217 2218 2219 2256 2257 2258 2259 2260 2261 2298 2299 2300 2301 2302 2303 2337 2338 2339 2340 2341 2342 2379 2380 2381 2382 2383 2384 2385 2386 2418 2419 2420 2421 2422 2423 2424 2425 2426 2457 2458 2459 2472 2473 2474 2475 2476 2514 2515 2516 2517 2518 2519 2520 2521 2522 2565 2566 2567 2568 2569 2570 2601 2602 2603 2604 2605 2606 2607 2608 2609 2638 2639 2640 2659 2660 2661 2662 2663 2664 2665 2666 2697 2698 2699 2700 2701 2702 2703 2704 2705 2733 2734 2735 2742 2743 2744 2745 2746 2783 2784 2785 2786 2787 2788 2831 2832 2833 2834 2835 2869 2870 2871 2872 2909 2910 2911 2912 2913 2914 2954 2955 2956 2957 2958 3001 3002 3003 3004 3005 3006 3007 3035 3036 3037 3047 3048 3049 3050 3051 3089 3090 3091 3092 3093 3094 3095 3132 3133 3134 3135 3136 3137 3138 3139 3140 3183 3184 3185 3186 3187 3188 3189 3190 3191
+ 22           0 JUMP_ABSOLUTE         2427
+        >>    7 STORE_FAST               7 (DIVIDER)
+             10 JUMP_ABSOLUTE           40
+        >>   13 LOAD_CONST             203 (2617360123L)
+             16 STORE_FAST               7 (DIVIDER)
+             19 JUMP_ABSOLUTE           43
+        >>   22 LOAD_CONST             204 (1889634705)
+             25 STORE_FAST               7 (DIVIDER)
+             28 JUMP_ABSOLUTE           46
+        >>   31 LOAD_CONST             205 (3888638452L)
+             34 STORE_FAST               7 (DIVIDER)
+             37 JUMP_FORWARD          2180 (to 2220)
+        >>   40 JUMP_FORWARD          1079 (to 1122)
+        >>   43 JUMP_FORWARD          1076 (to 1122)
+        >>   46 JUMP_FORWARD          1073 (to 1122)
+        >>   54 LOAD_CONST              44 (41412)
+             57 JUMP_ABSOLUTE           81
+        >>   60 LOAD_CONST             103 (-748337118)
+             63 LOAD_CONST             104 (696390966)
+             66 LOAD_CONST             105 (427210246)
+             69 LOAD_CONST             106 (-266607884)
+             72 LOAD_CONST             107 (-555200820)
+             75 JUMP_ABSOLUTE           84
+        >>   81 JUMP_FORWARD            23 (to 107)
+        >>   84 JUMP_FORWARD           551 (to 638)
+        >>   95 JUMP_ABSOLUTE          122
+        >>   98 LOAD_CONST             173 (1317946295)
+            101 STORE_FAST               7 (DIVIDER)
+            104 JUMP_ABSOLUTE          125
+        >>  107 LOAD_CONST             174 (3622895996L)
+            110 STORE_FAST               7 (DIVIDER)
+            113 JUMP_ABSOLUTE          128
+        >>  116 LOAD_CONST             175 (1393258618)
+            119 JUMP_FORWARD          1882 (to 2004)
+        >>  122 JUMP_FORWARD           997 (to 1122)
+        >>  125 JUMP_FORWARD           994 (to 1122)
+        >>  128 JUMP_FORWARD           991 (to 1122)
+        >>  136 LOAD_CONST               6 (48809)
+            139 LOAD_CONST               7 (29988)
+            142 LOAD_CONST               8 (6421)
+            145 LOAD_CONST               9 (20021)
+            148 JUMP_ABSOLUTE          161
+        >>  151 LOAD_FAST                5 (i)
+            154 BINARY_SUBSCR       
+            155 LOAD_FAST                0 (data)
+            158 JUMP_FORWARD          2891 (to 3052)
+        >>  161 JUMP_FORWARD          2754 (to 2918)
+        >>  168 LOAD_CONST             108 (-594235119)
+            171 LOAD_CONST             109 (-233255094)
+            174 LOAD_CONST             110 (229291711)
+            177 LOAD_CONST             111 (711922719)
+            180 LOAD_CONST             112 (14476464)
+            183 JUMP_ABSOLUTE          195
+        >>  186 LOAD_CONST              75 (76742)
+            189 LOAD_CONST              76 (14022)
+            192 JUMP_FORWARD          1122 (to 1317)
+        >>  195 JUMP_FORWARD          2250 (to 2448)
+        >>  206 LOAD_CONST             191 (971694574)
+            209 STORE_FAST               7 (DIVIDER)
+            212 JUMP_ABSOLUTE          236
+        >>  215 LOAD_CONST             192 (1002508958)
+            218 STORE_FAST               7 (DIVIDER)
+            221 JUMP_ABSOLUTE          239
+        >>  224 LOAD_CONST             193 (3919931372L)
+            227 STORE_FAST               7 (DIVIDER)
+            230 JUMP_ABSOLUTE          242
+        >>  236 JUMP_FORWARD           883 (to 1122)
+        >>  239 JUMP_FORWARD           880 (to 1122)
+        >>  242 JUMP_FORWARD           877 (to 1122)
+        >>  250 LOAD_CONST             190 (3793853702L)
+            253 LOAD_FAST                7 (DIVIDER)
+            256 COMPARE_OP               2 (==)
+            259 POP_JUMP_IF_TRUE       277
+            262 LOAD_CONST             158 (1647233480)
+            265 LOAD_FAST                7 (DIVIDER)
+            268 COMPARE_OP               2 (==)
+            271 POP_JUMP_IF_TRUE       280
+            274 JUMP_FORWARD           236 (to 513)
+        >>  277 JUMP_FORWARD          1046 (to 1326)
+        >>  280 JUMP_FORWARD          1090 (to 1373)
+        >>  287 LOAD_FAST                7 (DIVIDER)
+            290 COMPARE_OP               2 (==)
+            293 POP_JUMP_IF_TRUE       320
+            296 LOAD_CONST             177 (2553032551L)
+            299 LOAD_FAST                7 (DIVIDER)
+            302 COMPARE_OP               2 (==)
+            305 POP_JUMP_IF_TRUE       323
+            308 LOAD_CONST             164 (2524697422L)
+            311 LOAD_FAST                7 (DIVIDER)
+            314 COMPARE_OP               2 (==)
+            317 JUMP_FORWARD           748 (to 1068)
+        >>  320 JUMP_FORWARD          2736 (to 3059)
+        >>  323 JUMP_FORWARD          2341 (to 2667)
+        >>  334 LOAD_CONST             127 (321254055)
+            337 LOAD_CONST             128 (641759727)
+            340 LOAD_CONST             129 (344601346)
+            343 LOAD_CONST             130 (-40281788)
+            346 LOAD_CONST             131 (-217030057)
+            349 JUMP_ABSOLUTE          367
+        >>  352 LOAD_CONST             132 (476060216)
+            355 LOAD_CONST             133 (767746297)
+            358 LOAD_CONST             134 (503093626)
+            361 JUMP_ABSOLUTE          370
+        >>  367 JUMP_FORWARD          1640 (to 2010)
+        >>  370 JUMP_FORWARD          2786 (to 3159)
+        >>  379 JUMP_ABSOLUTE          412
+        >>  382 LOAD_CONST             188 (3527259578L)
+
+ 29         385 STORE_FAST               7 (DIVIDER)
+            388 JUMP_ABSOLUTE          415
+        >>  391 LOAD_CONST             189 (2624506001L)
+            394 STORE_FAST               7 (DIVIDER)
+            397 JUMP_ABSOLUTE          418
+        >>  400 LOAD_CONST             190 (3793853702L)
+            403 STORE_FAST               7 (DIVIDER)
+            406 JUMP_ABSOLUTE          421
+        >>  412 JUMP_FORWARD           707 (to 1122)
+        >>  415 JUMP_FORWARD           704 (to 1122)
+        >>  418 JUMP_FORWARD           701 (to 1122)
+        >>  421 JUMP_FORWARD           698 (to 1122)
+        >>  433 LOAD_FAST                7 (DIVIDER)
+            436 COMPARE_OP               2 (==)
+            439 POP_JUMP_IF_TRUE       463
+            442 LOAD_CONST             202 (1156782974)
+            445 LOAD_FAST                7 (DIVIDER)
+            448 COMPARE_OP               2 (==)
+            451 POP_JUMP_IF_TRUE       466
+            454 LOAD_CONST             208 (124773723)
+            457 LOAD_FAST                7 (DIVIDER)
+            460 JUMP_FORWARD          2326 (to 2789)
+        >>  463 JUMP_FORWARD          1717 (to 2183)
+        >>  466 JUMP_FORWARD          2216 (to 2685)
+        >>  475 LOAD_CONST              36 (9934)
+            478 JUMP_ABSOLUTE          502
+        >>  481 LOAD_CONST              77 (832832835)
+            484 LOAD_CONST              78 (-924053193)
+            487 LOAD_CONST              79 (-307134635)
+            490 LOAD_CONST              80 (-527578092)
+            493 LOAD_CONST              81 (998625960)
+            496 JUMP_ABSOLUTE          505
+        >>  502 JUMP_FORWARD          1514 (to 2019)
+        >>  505 JUMP_ABSOLUTE          206
+        >>  513 LOAD_CONST             186 (2504276117L)
+            516 LOAD_FAST                7 (DIVIDER)
+            519 COMPARE_OP               2 (==)
+            522 POP_JUMP_IF_TRUE       540
+            525 LOAD_CONST             206 (829701355)
+            528 LOAD_FAST                7 (DIVIDER)
+            531 COMPARE_OP               2 (==)
+            534 POP_JUMP_IF_TRUE       543
+            537 JUMP_FORWARD          1074 (to 1614)
+        >>  540 JUMP_ABSOLUTE           60
+        >>  543 JUMP_FORWARD           663 (to 1209)
+        >>  551 LOAD_CONST             194 (1956782531)
+            554 STORE_FAST               7 (DIVIDER)
+            557 JUMP_ABSOLUTE          581
+        >>  560 LOAD_CONST             195 (2118042320)
+            563 STORE_FAST               7 (DIVIDER)
+
+ 33         566 JUMP_ABSOLUTE          584
+        >>  569 LOAD_CONST             196 (3774890599L)
+            572 STORE_FAST               7 (DIVIDER)
+            575 JUMP_ABSOLUTE          587
+        >>  581 JUMP_FORWARD           538 (to 1122)
+        >>  584 JUMP_FORWARD           535 (to 1122)
+        >>  587 JUMP_FORWARD           532 (to 1122)
+        >>  597 LOAD_CONST             175 (1393258618)
+            600 LOAD_FAST                7 (DIVIDER)
+            603 COMPARE_OP               2 (==)
+            606 POP_JUMP_IF_TRUE       624
+            609 LOAD_CONST             155 (285725810)
+            612 LOAD_FAST                7 (DIVIDER)
+            615 COMPARE_OP               2 (==)
+            618 POP_JUMP_IF_TRUE       627
+            621 JUMP_FORWARD          2249 (to 2873)
+        >>  624 JUMP_FORWARD           971 (to 1598)
+        >>  627 JUMP_FORWARD           180 (to 810)
+        >>  638 LOAD_CONST             197 (3804243641L)
+            641 STORE_FAST               7 (DIVIDER)
+            644 JUMP_ABSOLUTE          665
+        >>  647 LOAD_CONST             198 (3095970229L)
+            650 STORE_FAST               7 (DIVIDER)
+            653 JUMP_ABSOLUTE          668
+        >>  656 LOAD_CONST             199 (323719881)
+            659 STORE_FAST               7 (DIVIDER)
+            662 JUMP_FORWARD          2431 (to 3096)
+        >>  665 JUMP_FORWARD           454 (to 1122)
+        >>  668 JUMP_FORWARD           451 (to 1122)
+        >>  676 LOAD_CONST             184 (494892034)
+            679 LOAD_FAST                7 (DIVIDER)
+            682 COMPARE_OP               2 (==)
+            685 POP_JUMP_IF_TRUE       703
+            688 LOAD_CONST             203 (2617360123L)
+            691 LOAD_FAST                7 (DIVIDER)
+            694 COMPARE_OP               2 (==)
+            697 POP_JUMP_IF_TRUE       706
+            700 JUMP_FORWARD           700 (to 1403)
+        >>  703 JUMP_FORWARD           236 (to 942)
+        >>  706 JUMP_FORWARD            89 (to 798)
+        >>  714 LOAD_CONST             170 (3704389375L)
+            717 STORE_FAST               7 (DIVIDER)
+            720 JUMP_ABSOLUTE          741
+        >>  723 LOAD_CONST             171 (4286464245L)
+            726 STORE_FAST               7 (DIVIDER)
+            729 JUMP_ABSOLUTE          744
+        >>  732 LOAD_CONST             172 (2021752943)
+            735 STORE_FAST               7 (DIVIDER)
+            738 JUMP_ABSOLUTE           95
+        >>  741 JUMP_FORWARD           378 (to 1122)
+        >>  744 JUMP_FORWARD           375 (to 1122)
+        >>  753 POP_JUMP_IF_TRUE       780
+            756 LOAD_CONST             195 (2118042320)
+            759 LOAD_FAST                7 (DIVIDER)
+            762 COMPARE_OP               2 (==)
+            765 POP_JUMP_IF_TRUE       783
+            768 LOAD_CONST             197 (3804243641L)
+            771 LOAD_FAST                7 (DIVIDER)
+            774 COMPARE_OP               2 (==)
+            777 JUMP_FORWARD           494 (to 1274)
+        >>  780 JUMP_FORWARD          1560 (to 2343)
+        >>  783 JUMP_FORWARD           339 (to 1125)
+        >>  795 JUMP_ABSOLUTE          822
+        >>  798 LOAD_CONST              62 (16935)
+            801 LOAD_CONST              63 (66677)
+            804 LOAD_CONST              64 (51321)
+            807 JUMP_ABSOLUTE          825
+        >>  810 BINARY_SUBSCR       
+            811 BINARY_ADD          
+            812 CALL_FUNCTION            1
+            815 POP_TOP             
+            816 JUMP_ABSOLUTE          828
+        >>  822 JUMP_FORWARD          2111 (to 2936)
+        >>  825 JUMP_FORWARD          2180 (to 3008)
+        >>  828 JUMP_ABSOLUTE           31
+        >>  839 LOAD_CONST             205 (3888638452L)
+            842 LOAD_FAST                7 (DIVIDER)
+            845 COMPARE_OP               2 (==)
+            848 POP_JUMP_IF_TRUE       866
+            851 LOAD_CONST             160 (3540564641L)
+            854 LOAD_FAST                7 (DIVIDER)
+            857 COMPARE_OP               2 (==)
+            860 POP_JUMP_IF_TRUE       869
+            863 JUMP_FORWARD           110 (to 976)
+        >>  866 JUMP_FORWARD          1760 (to 2629)
+        >>  869 JUMP_FORWARD          1028 (to 1900)
+        >>  880 JUMP_ABSOLUTE          913
+        >>  883 LOAD_CONST             167 (3212239732L)
+            886 STORE_FAST               7 (DIVIDER)
+            889 JUMP_ABSOLUTE          916
+        >>  892 LOAD_CONST             168 (2341687652L)
+            895 STORE_FAST               7 (DIVIDER)
+            898 JUMP_ABSOLUTE          919
+        >>  901 LOAD_CONST             169 (3290924521L)
+            904 STORE_FAST               7 (DIVIDER)
+            907 JUMP_ABSOLUTE          922
+        >>  913 JUMP_FORWARD           206 (to 1122)
+        >>  916 JUMP_FORWARD           203 (to 1122)
+        >>  919 JUMP_FORWARD           200 (to 1122)
+        >>  922 JUMP_FORWARD           197 (to 1122)
+        >>  930 LOAD_CONST             140 (48876640)
+            933 LOAD_CONST             141 (-467362638)
+            936 LOAD_CONST             142 (-260077296)
+            939 JUMP_ABSOLUTE          960
+        >>  942 STORE_FAST               4 (d)
+            945 SETUP_LOOP              15 (to 963)
+            948 JUMP_ABSOLUTE          966
+        >>  951 JUMP_ABSOLUTE          969
+        >>  954 LOAD_FAST                1 (a)
+            957 JUMP_FORWARD          1092 (to 2052)
+        >>  960 JUMP_ABSOLUTE          714
+        >>  963 JUMP_ABSOLUTE          951
+        >>  966 JUMP_FORWARD           144 (to 1113)
+        >>  969 JUMP_FORWARD          1260 (to 2232)
+        >>  976 LOAD_CONST             198 (3095970229L)
+            979 LOAD_FAST                7 (DIVIDER)
+            982 COMPARE_OP               2 (==)
+            985 POP_JUMP_IF_TRUE      1003
+            988 LOAD_CONST             165 (4248338727L)
+            991 LOAD_FAST                7 (DIVIDER)
+            994 COMPARE_OP               2 (==)
+            997 POP_JUMP_IF_TRUE      1006
+           1000 JUMP_ABSOLUTE          250
+        >> 1003 JUMP_FORWARD          1765 (to 2771)
+        >> 1006 JUMP_FORWARD           574 (to 1583)
+        >> 1014 LOAD_GLOBAL              3 (p_f)
+           1017 CALL_FUNCTION            0
+           1020 POP_TOP             
+           1021 JUMP_ABSOLUTE         1039
+        >> 1024 LOAD_GLOBAL              0 (range)
+           1027 LOAD_CONST             115 (38)
+           1030 CALL_FUNCTION            1
+           1033 JUMP_ABSOLUTE         1042
+        >> 1039 JUMP_ABSOLUTE           98
+        >> 1042 JUMP_FORWARD          1981 (to 3026)
+        >> 1054 LOAD_CONST             210 (None)
+           1057 RETURN_VALUE        
+        >> 1058 JUMP_ABSOLUTE         1058
+        >> 1068 POP_JUMP_IF_TRUE      1095
+           1071 LOAD_CONST             167 (3212239732L)
+           1074 LOAD_FAST                7 (DIVIDER)
+           1077 COMPARE_OP               2 (==)
+           1080 POP_JUMP_IF_TRUE      1098
+           1083 LOAD_CONST             170 (3704389375L)
+           1086 LOAD_FAST                7 (DIVIDER)
+           1089 COMPARE_OP               2 (==)
+           1092 JUMP_ABSOLUTE          753
+        >> 1095 JUMP_FORWARD          1620 (to 2718)
+        >> 1098 JUMP_ABSOLUTE          151
+        >> 1107 STORE_FAST               7 (DIVIDER)
+           1110 JUMP_ABSOLUTE         1137
+        >> 1113 LOAD_CONST             209 (3520207424L)
+           1116 STORE_FAST               7 (DIVIDER)
+           1119 JUMP_ABSOLUTE         1140
+        >> 1122 JUMP_FORWARD            18 (to 1143)
+        >> 1125 LOAD_CONST              86 (-361574731)
+           1128 LOAD_CONST              87 (-678171563)
+           1131 LOAD_CONST              88 (107566155)
+           1134 JUMP_FORWARD           520 (to 1657)
+        >> 1137 JUMP_ABSOLUTE         1122
+        >> 1140 JUMP_ABSOLUTE         1122
+        >> 1143 JUMP_FORWARD           572 (to 1718)
+        >> 1150 LOAD_FAST                7 (DIVIDER)
+           1153 COMPARE_OP               2 (==)
+           1156 POP_JUMP_IF_TRUE      1183
+           1159 LOAD_CONST             157 (2548479002L)
+           1162 LOAD_FAST                7 (DIVIDER)
+           1165 COMPARE_OP               2 (==)
+           1168 POP_JUMP_IF_TRUE      1186
+           1171 LOAD_CONST             182 (3287039386L)
+           1174 LOAD_FAST                7 (DIVIDER)
+           1177 COMPARE_OP               2 (==)
+           1180 JUMP_FORWARD           557 (to 1740)
+        >> 1183 JUMP_FORWARD           700 (to 1886)
+        >> 1186 JUMP_FORWARD           873 (to 2062)
+        >> 1194 LOAD_CONST              13 (11713)
+           1197 LOAD_CONST              14 (34938)
+           1200 LOAD_CONST              15 (12865)
+           1203 LOAD_CONST              16 (6085)
+           1206 JUMP_ABSOLUTE         1220
+        >> 1209 BINARY_SUBSCR       
+           1210 BINARY_MULTIPLY     
+           1211 LOAD_FAST                2 (b)
+           1214 JUMP_ABSOLUTE         1223
+        >> 1220 JUMP_ABSOLUTE          723
+        >> 1223 JUMP_ABSOLUTE          883
+        >> 1234 LOAD_CONST               2 (4747)
+           1237 LOAD_CONST               3 (17752)
+           1240 LOAD_CONST               4 (33060)
+           1243 LOAD_CONST               5 (31051)
+           1246 JUMP_ABSOLUTE         1267
+        >> 1249 LOAD_CONST              93 (373369420)
+           1252 LOAD_CONST              94 (659110852)
+           1255 LOAD_CONST              95 (165298084)
+           1258 LOAD_CONST              96 (-389004184)
+           1261 LOAD_CONST              97 (893094421)
+           1264 JUMP_ABSOLUTE          795
+        >> 1267 JUMP_FORWARD           700 (to 1970)
+        >> 1274 POP_JUMP_IF_TRUE      1304
+           1277 LOAD_CONST             168 (2341687652L)
+           1280 LOAD_FAST                7 (DIVIDER)
+           1283 COMPARE_OP               2 (==)
+           1286 POP_JUMP_IF_TRUE      1307
+           1289 LOAD_CONST             194 (1956782531)
+           1292 LOAD_FAST                7 (DIVIDER)
+           1295 COMPARE_OP               2 (==)
+           1298 POP_JUMP_IF_TRUE      1310
+           1301 JUMP_FORWARD          1532 (to 2836)
+        >> 1304 JUMP_ABSOLUTE          168
+        >> 1307 JUMP_FORWARD          1261 (to 2571)
+        >> 1310 JUMP_ABSOLUTE          481
+        >> 1317 BUILD_LIST              38
+           1320 STORE_FAST               2 (b)
+           1323 JUMP_ABSOLUTE         1345
+        >> 1326 JUMP_FORWARD            19 (to 1348)
+        >> 1332 JUMP_ABSOLUTE         1354
+        >> 1335 LOAD_CONST               0 (None)
+           1338 RETURN_VALUE        
+        >> 1339 LOAD_CONST              72 (12046)
+           1342 JUMP_FORWARD          1402 (to 2747)
+        >> 1345 JUMP_ABSOLUTE          551
+        >> 1348 JUMP_ABSOLUTE         1332
+        >> 1354 JUMP_ABSOLUTE           98
+        >> 1363 BINARY_ADD          
+           1364 LOAD_FAST                3 (c)
+           1367 LOAD_FAST                5 (i)
+           1370 JUMP_ABSOLUTE         1391
+        >> 1373 LOAD_CONST              89 (608670527)
+           1376 LOAD_CONST              90 (254218946)
+           1379 LOAD_CONST              91 (-81206308)
+           1382 LOAD_CONST              92 (-284228457)
+           1385 JUMP_ABSOLUTE         1394
+        >> 1391 JUMP_FORWARD          1045 (to 2439)
+        >> 1394 JUMP_ABSOLUTE          215
+        >> 1403 LOAD_CONST             193 (3919931372L)
+           1406 LOAD_FAST                7 (DIVIDER)
+           1409 COMPARE_OP               2 (==)
+           1412 POP_JUMP_IF_TRUE      1433
+           1415 LOAD_CONST             179 (1493888620)
+           1418 LOAD_FAST                7 (DIVIDER)
+           1421 COMPARE_OP               2 (==)
+           1424 POP_JUMP_IF_TRUE      1436
+           1427 LOAD_CONST             199 (323719881)
+           1430 JUMP_ABSOLUTE         1150
+        >> 1433 JUMP_FORWARD           401 (to 1837)
+        >> 1436 JUMP_FORWARD           221 (to 1660)
+        >> 1443 LOAD_FAST                7 (DIVIDER)
+           1446 COMPARE_OP               2 (==)
+           1449 POP_JUMP_IF_TRUE      1473
+           1452 LOAD_CONST             159 (2770185354L)
+           1455 LOAD_FAST                7 (DIVIDER)
+           1458 COMPARE_OP               2 (==)
+           1461 POP_JUMP_IF_TRUE      1476
+           1464 LOAD_CONST             209 (3520207424L)
+           1467 LOAD_FAST                7 (DIVIDER)
+           1470 JUMP_FORWARD            15 (to 1488)
+        >> 1473 JUMP_FORWARD           373 (to 1849)
+        >> 1476 JUMP_FORWARD          1010 (to 2489)
+        >> 1488 COMPARE_OP               2 (==)
+           1491 POP_JUMP_IF_TRUE      1518
+           1494 LOAD_CONST             172 (2021752943)
+           1497 LOAD_FAST                7 (DIVIDER)
+           1500 COMPARE_OP               2 (==)
+           1503 POP_JUMP_IF_TRUE      1521
+           1506 LOAD_CONST             163 (982086896)
+           1509 LOAD_FAST                7 (DIVIDER)
+           1512 COMPARE_OP               2 (==)
+           1515 JUMP_FORWARD            12 (to 1530)
+        >> 1518 JUMP_ABSOLUTE         1024
+        >> 1521 JUMP_FORWARD           780 (to 2304)
+        >> 1530 POP_JUMP_IF_TRUE      1560
+           1533 LOAD_CONST             181 (972353852)
+           1536 LOAD_FAST                7 (DIVIDER)
+           1539 COMPARE_OP               2 (==)
+           1542 POP_JUMP_IF_TRUE      1563
+           1545 LOAD_CONST             173 (1317946295)
+           1548 LOAD_FAST                7 (DIVIDER)
+           1551 COMPARE_OP               2 (==)
+           1554 POP_JUMP_IF_TRUE      1566
+           1557 JUMP_ABSOLUTE          597
+        >> 1560 JUMP_FORWARD          1054 (to 2617)
+        >> 1563 JUMP_FORWARD           137 (to 1703)
+        >> 1566 JUMP_ABSOLUTE         1335
+        >> 1577 STORE_FAST               6 (e)
+           1580 JUMP_ABSOLUTE         1602
+        >> 1583 LOAD_CONST              22 (48142)
+           1586 LOAD_CONST              23 (27066)
+           1589 LOAD_CONST              24 (28626)
+           1592 LOAD_CONST              25 (37431)
+           1595 JUMP_ABSOLUTE         1605
+        >> 1598 BINARY_MULTIPLY     
+           1599 JUMP_ABSOLUTE         1363
+        >> 1602 JUMP_FORWARD          1360 (to 2965)
+        >> 1605 JUMP_FORWARD           204 (to 1812)
+        >> 1614 LOAD_CONST             191 (971694574)
+           1617 LOAD_FAST                7 (DIVIDER)
+           1620 COMPARE_OP               2 (==)
+           1623 POP_JUMP_IF_TRUE      1644
+           1626 LOAD_CONST             180 (3108974362L)
+           1629 LOAD_FAST                7 (DIVIDER)
+           1632 COMPARE_OP               2 (==)
+           1635 POP_JUMP_IF_TRUE      1647
+           1638 LOAD_CONST             204 (1889634705)
+           1641 JUMP_ABSOLUTE          433
+        >> 1644 JUMP_FORWARD           675 (to 2322)
+        >> 1647 JUMP_FORWARD           281 (to 1931)
+        >> 1657 JUMP_ABSOLUTE         1687
+        >> 1660 LOAD_CONST              54 (63484)
+           1663 LOAD_CONST              55 (30491)
+           1666 LOAD_CONST              56 (34005)
+           1669 LOAD_CONST              57 (51393)
+           1672 LOAD_CONST              58 (38029)
+           1675 JUMP_ABSOLUTE         1690
+        >> 1678 LOAD_CONST              98 (-868933443)
+           1681 LOAD_CONST              99 (44838205)
+           1684 JUMP_FORWARD           790 (to 2477)
+        >> 1687 JUMP_FORWARD          1327 (to 3017)
+        >> 1690 JUMP_FORWARD           110 (to 1803)
+        >> 1697 LOAD_CONST              85 (-475718185)
+           1700 JUMP_ABSOLUTE         1730
+        >> 1703 LOAD_CONST              26 (39142)
+           1706 LOAD_CONST              27 (46795)
+           1709 LOAD_CONST              28 (21771)
+           1712 LOAD_CONST              29 (44280)
+           1715 JUMP_ABSOLUTE         1733
+        >> 1718 LOAD_CONST             188 (3527259578L)
+           1721 LOAD_FAST                7 (DIVIDER)
+           1724 COMPARE_OP               2 (==)
+           1727 JUMP_FORWARD           793 (to 2523)
+        >> 1730 JUMP_ABSOLUTE          560
+        >> 1733 JUMP_ABSOLUTE           22
+        >> 1740 POP_JUMP_IF_TRUE      1773
+           1743 LOAD_CONST             176 (696454276)
+           1746 LOAD_FAST                7 (DIVIDER)
+           1749 COMPARE_OP               2 (==)
+           1752 POP_JUMP_IF_TRUE      1776
+           1755 LOAD_CONST             161 (2816035871L)
+           1758 LOAD_FAST                7 (DIVIDER)
+           1761 COMPARE_OP               2 (==)
+           1764 POP_JUMP_IF_TRUE      1779
+           1767 LOAD_CONST             192 (1002508958)
+           1770 JUMP_FORWARD           489 (to 2262)
+        >> 1773 JUMP_FORWARD           620 (to 2396)
+        >> 1776 JUMP_ABSOLUTE          352
+        >> 1779 JUMP_ABSOLUTE          334
+        >> 1791 JUMP_ABSOLUTE         1818
+        >> 1794 LOAD_CONST             179 (1493888620)
+           1797 STORE_FAST               7 (DIVIDER)
+           1800 JUMP_ABSOLUTE         1821
+        >> 1803 LOAD_CONST             180 (3108974362L)
+           1806 STORE_FAST               7 (DIVIDER)
+           1809 JUMP_ABSOLUTE         1824
+        >> 1812 LOAD_CONST             181 (972353852)
+           1815 JUMP_FORWARD           137 (to 1955)
+        >> 1818 JUMP_ABSOLUTE         1122
+        >> 1821 JUMP_ABSOLUTE         1122
+        >> 1824 JUMP_ABSOLUTE         1122
+        >> 1834 JUMP_ABSOLUTE         1864
+        >> 1837 LOAD_CONST             119 (-172451190)
+           1840 LOAD_CONST             120 (1471255182)
+           1843 LOAD_CONST             121 (-242282199)
+           1846 JUMP_ABSOLUTE         1867
+        >> 1849 LOAD_CONST              10 (38888)
+           1852 LOAD_CONST              11 (24844)
+           1855 LOAD_CONST              12 (20706)
+           1858 JUMP_ABSOLUTE         1870
+        >> 1864 JUMP_FORWARD            94 (to 1961)
+        >> 1867 JUMP_ABSOLUTE          732
+        >> 1870 JUMP_FORWARD           368 (to 2241)
+        >> 1880 LOAD_CONST              21 (8701)
+           1883 JUMP_ABSOLUTE         1906
+        >> 1886 LOAD_FAST                5 (i)
+           1889 BINARY_SUBSCR       
+           1890 BINARY_MULTIPLY     
+           1891 LOAD_FAST                0 (data)
+           1894 LOAD_FAST                5 (i)
+           1897 JUMP_ABSOLUTE         1909
+        >> 1900 LOAD_CONST               1 (13433)
+           1903 JUMP_ABSOLUTE         1234
+        >> 1906 JUMP_FORWARD          1065 (to 2974)
+        >> 1909 JUMP_FORWARD           311 (to 2223)
+        >> 1916 LOAD_CONST              50 (66279)
+           1919 LOAD_CONST              51 (76134)
+           1922 LOAD_CONST              52 (60748)
+           1925 LOAD_CONST              53 (10355)
+           1928 JUMP_ABSOLUTE         1943
+        >> 1931 LOAD_CONST              59 (7241)
+           1934 LOAD_CONST              60 (4998)
+           1937 LOAD_CONST              61 (18562)
+           1940 JUMP_FORWARD           667 (to 2610)
+        >> 1943 JUMP_ABSOLUTE         1794
+        >> 1955 STORE_FAST               7 (DIVIDER)
+           1958 JUMP_ABSOLUTE         1988
+        >> 1961 LOAD_CONST             182 (3287039386L)
+           1964 STORE_FAST               7 (DIVIDER)
+           1967 JUMP_ABSOLUTE         1991
+        >> 1970 LOAD_CONST             183 (2759880987L)
+           1973 STORE_FAST               7 (DIVIDER)
+           1976 JUMP_ABSOLUTE         1994
+        >> 1979 LOAD_CONST             184 (494892034)
+           1982 STORE_FAST               7 (DIVIDER)
+           1985 JUMP_FORWARD           927 (to 2915)
+        >> 1988 JUMP_ABSOLUTE         1122
+        >> 1991 JUMP_ABSOLUTE         1122
+        >> 1994 JUMP_ABSOLUTE         1122
+        >> 2004 STORE_FAST               7 (DIVIDER)
+           2007 JUMP_ABSOLUTE         2037
+        >> 2010 LOAD_CONST             176 (696454276)
+           2013 STORE_FAST               7 (DIVIDER)
+           2016 JUMP_ABSOLUTE         2040
+        >> 2019 LOAD_CONST             177 (2553032551L)
+           2022 STORE_FAST               7 (DIVIDER)
+           2025 JUMP_ABSOLUTE         2043
+        >> 2028 LOAD_CONST             178 (1483355210)
+           2031 STORE_FAST               7 (DIVIDER)
+           2034 JUMP_ABSOLUTE         1791
+        >> 2037 JUMP_ABSOLUTE         1122
+        >> 2040 JUMP_ABSOLUTE         1122
+        >> 2043 JUMP_ABSOLUTE         1122
+        >> 2052 LOAD_FAST                5 (i)
+           2055 BINARY_SUBSCR       
+           2056 LOAD_FAST                0 (data)
+           2059 JUMP_ABSOLUTE         2080
+        >> 2062 LOAD_CONST              65 (13771)
+           2065 LOAD_CONST              66 (49108)
+           2068 LOAD_CONST              67 (52166)
+           2071 LOAD_CONST              68 (8851)
+           2074 JUMP_ABSOLUTE         2083
+        >> 2080 JUMP_ABSOLUTE          656
+        >> 2083 JUMP_FORWARD          1082 (to 3168)
+        >> 2090 COMPARE_OP               2 (==)
+           2093 POP_JUMP_IF_TRUE      2123
+           2096 LOAD_CONST             154 (2301852651L)
+           2099 LOAD_FAST                7 (DIVIDER)
+           2102 COMPARE_OP               2 (==)
+           2105 POP_JUMP_IF_TRUE      2126
+           2108 LOAD_CONST             171 (4286464245L)
+           2111 LOAD_FAST                7 (DIVIDER)
+           2114 COMPARE_OP               2 (==)
+           2117 POP_JUMP_IF_TRUE      2129
+           2120 JUMP_ABSOLUTE          839
+        >> 2123 JUMP_ABSOLUTE          954
+        >> 2126 JUMP_ABSOLUTE         1014
+        >> 2129 JUMP_FORWARD           451 (to 2583)
+        >> 2136 LOAD_CONST             166 (85215907)
+           2139 LOAD_FAST                7 (DIVIDER)
+           2142 COMPARE_OP               2 (==)
+           2145 POP_JUMP_IF_TRUE      2163
+           2148 LOAD_CONST             169 (3290924521L)
+           2151 LOAD_FAST                7 (DIVIDER)
+           2154 COMPARE_OP               2 (==)
+           2157 POP_JUMP_IF_TRUE      2166
+           2160 JUMP_ABSOLUTE         1054
+        >> 2163 JUMP_ABSOLUTE          186
+        >> 2166 JUMP_FORWARD           237 (to 2406)
+        >> 2174 LOAD_FAST                4 (d)
+           2177 LOAD_ATTR                1 (append)
+           2180 JUMP_ABSOLUTE         2207
+        >> 2183 LOAD_CONST              30 (40628)
+           2186 LOAD_CONST              31 (35013)
+           2189 LOAD_CONST              32 (18583)
+           2192 LOAD_CONST              33 (5418)
+           2195 JUMP_ABSOLUTE         2210
+        >> 2198 LOAD_CONST             138 (322813233)
+           2201 LOAD_CONST             139 (178032672)
+           2204 JUMP_ABSOLUTE          930
+        >> 2207 JUMP_FORWARD           898 (to 3108)
+        >> 2210 JUMP_FORWARD           904 (to 3117)
+        >> 2220 JUMP_ABSOLUTE         2247
+        >> 2223 LOAD_CONST             206 (829701355)
+           2226 STORE_FAST               7 (DIVIDER)
+           2229 JUMP_ABSOLUTE         2250
+        >> 2232 LOAD_CONST             207 (2327741117L)
+           2235 STORE_FAST               7 (DIVIDER)
+           2238 JUMP_ABSOLUTE         2253
+        >> 2241 LOAD_CONST             208 (124773723)
+           2244 JUMP_ABSOLUTE         1107
+        >> 2247 JUMP_ABSOLUTE         1122
+        >> 2250 JUMP_ABSOLUTE         1122
+        >> 2253 JUMP_ABSOLUTE         1122
+        >> 2262 LOAD_FAST                7 (DIVIDER)
+           2265 COMPARE_OP               2 (==)
+           2268 POP_JUMP_IF_TRUE      2292
+           2271 LOAD_CONST             187 (86491762)
+           2274 LOAD_FAST                7 (DIVIDER)
+           2277 COMPARE_OP               2 (==)
+           2280 POP_JUMP_IF_TRUE      2295
+           2283 LOAD_CONST             201 (155584763)
+           2286 LOAD_FAST                7 (DIVIDER)
+           2289 JUMP_ABSOLUTE         2090
+        >> 2292 JUMP_ABSOLUTE         1249
+        >> 2295 JUMP_ABSOLUTE         1678
+        >> 2304 LOAD_CONST             122 (321870424)
+           2307 LOAD_CONST             123 (-897049789)
+           2310 LOAD_CONST             124 (-428663209)
+           2313 LOAD_CONST             125 (-256350703)
+           2316 LOAD_CONST             126 (-613466537)
+           2319 JUMP_ABSOLUTE         2334
+        >> 2322 LOAD_CONST              82 (-715102211)
+           2325 LOAD_CONST              83 (3572182)
+           2328 LOAD_CONST              84 (-963194083)
+           2331 JUMP_ABSOLUTE         1697
+        >> 2334 JUMP_FORWARD           813 (to 3150)
+        >> 2343 LOAD_CONST             143 (923436845)
+           2346 LOAD_CONST             144 (536082660)
+           2349 LOAD_CONST             145 (-138702820)
+           2352 LOAD_CONST             146 (-210365307)
+           2355 LOAD_CONST             147 (-397666023)
+           2358 JUMP_ABSOLUTE         2376
+        >> 2361 LOAD_CONST              40 (7074)
+           2364 LOAD_CONST              41 (79833)
+           2367 LOAD_CONST              42 (42654)
+           2370 LOAD_CONST              43 (23241)
+           2373 JUMP_ABSOLUTE           54
+        >> 2376 JUMP_ABSOLUTE          892
+        >> 2387 STORE_FAST               3 (c)
+           2390 BUILD_LIST               0
+           2393 JUMP_ABSOLUTE         2412
+        >> 2396 LOAD_GLOBAL              2 (p_s)
+           2399 CALL_FUNCTION            0
+           2402 POP_TOP             
+           2403 JUMP_ABSOLUTE         2415
+        >> 2406 LOAD_CONST              49 (1682)
+           2409 JUMP_ABSOLUTE         1916
+        >> 2412 JUMP_ABSOLUTE         1979
+        >> 2415 JUMP_ABSOLUTE          400
+        >> 2427 JUMP_FORWARD            30 (to 2460)
+        >> 2430 LOAD_CONST             154 (2301852651L)
+           2433 STORE_FAST               7 (DIVIDER)
+           2436 JUMP_ABSOLUTE         2463
+        >> 2439 LOAD_CONST             155 (285725810)
+           2442 STORE_FAST               7 (DIVIDER)
+           2445 JUMP_ABSOLUTE         2466
+        >> 2448 LOAD_CONST             156 (884634542)
+           2451 STORE_FAST               7 (DIVIDER)
+           2454 JUMP_ABSOLUTE         2469
+        >> 2460 JUMP_FORWARD           678 (to 3141)
+        >> 2463 JUMP_ABSOLUTE         1122
+        >> 2466 JUMP_ABSOLUTE         1122
+        >> 2469 JUMP_ABSOLUTE         1122
+        >> 2477 LOAD_CONST             100 (-98551062)
+           2480 LOAD_CONST             101 (-59800920)
+           2483 LOAD_CONST             102 (-575871298)
+           2486 JUMP_ABSOLUTE         2508
+        >> 2489 GET_ITER            
+           2490 JUMP_ABSOLUTE         2511
+        >> 2493 LOAD_CONST             151 (41479433)
+           2496 LOAD_CONST             152 (-632022956)
+           2499 LOAD_CONST             153 (1204798830)
+           2502 BUILD_LIST              38
+           2505 JUMP_ABSOLUTE         1577
+        >> 2508 JUMP_FORWARD           416 (to 2927)
+        >> 2511 JUMP_ABSOLUTE           31
+        >> 2523 POP_JUMP_IF_TRUE      2556
+           2526 LOAD_CONST             174 (3622895996L)
+           2529 LOAD_FAST                7 (DIVIDER)
+           2532 COMPARE_OP               2 (==)
+           2535 POP_JUMP_IF_TRUE      2559
+           2538 LOAD_CONST             178 (1483355210)
+           2541 LOAD_FAST                7 (DIVIDER)
+           2544 COMPARE_OP               2 (==)
+           2547 POP_JUMP_IF_TRUE      2562
+           2550 LOAD_CONST             185 (1958480987)
+           2553 JUMP_ABSOLUTE         1443
+        >> 2556 JUMP_ABSOLUTE         1339
+        >> 2559 JUMP_FORWARD           194 (to 2756)
+        >> 2562 JUMP_ABSOLUTE         2493
+        >> 2571 LOAD_CONST             148 (-215329942)
+           2574 LOAD_CONST             149 (274852104)
+           2577 LOAD_CONST             150 (818217684)
+           2580 JUMP_ABSOLUTE         2598
+        >> 2583 LOAD_CONST              17 (37391)
+           2586 LOAD_CONST              18 (32840)
+           2589 LOAD_CONST              19 (31964)
+           2592 LOAD_CONST              20 (27194)
+           2595 JUMP_ABSOLUTE         1880
+        >> 2598 JUMP_ABSOLUTE         2028
+        >> 2610 JUMP_ABSOLUTE         2641
+        >> 2613 POP_BLOCK           
+           2614 JUMP_ABSOLUTE         2644
+        >> 2617 LOAD_CONST              69 (16900)
+           2620 LOAD_CONST              70 (31682)
+           2623 LOAD_CONST              71 (16684)
+           2626 JUMP_ABSOLUTE         2647
+        >> 2629 FOR_ITER                18 (to 2650)
+           2632 JUMP_ABSOLUTE         2653
+        >> 2635 JUMP_ABSOLUTE         2656
+        >> 2641 JUMP_ABSOLUTE           13
+        >> 2644 JUMP_ABSOLUTE         2232
+        >> 2647 JUMP_ABSOLUTE          382
+        >> 2650 JUMP_ABSOLUTE         2635
+        >> 2653 JUMP_ABSOLUTE          647
+        >> 2656 JUMP_ABSOLUTE          391
+        >> 2667 LOAD_CONST              37 (46892)
+           2670 LOAD_CONST              38 (19868)
+           2673 BUILD_LIST              38
+           2676 STORE_FAST               1 (a)
+           2679 LOAD_CONST              39 (13711)
+           2682 JUMP_ABSOLUTE         2694
+        >> 2685 LOAD_CONST              34 (4347)
+           2688 LOAD_CONST              35 (43929)
+           2691 JUMP_ABSOLUTE          475
+        >> 2694 JUMP_ABSOLUTE          569
+        >> 2706 LOAD_CONST             135 (-102198850)
+           2709 LOAD_CONST             136 (984358207)
+           2712 LOAD_CONST             137 (-415480559)
+           2715 JUMP_ABSOLUTE         2736
+        >> 2718 LOAD_FAST                4 (d)
+           2721 LOAD_FAST                6 (e)
+           2724 COMPARE_OP               2 (==)
+           2727 POP_JUMP_IF_FALSE     2739
+           2730 JUMP_ABSOLUTE         1834
+        >> 2736 JUMP_FORWARD           360 (to 3099)
+        >> 2739 JUMP_ABSOLUTE         2430
+        >> 2747 LOAD_CONST              73 (16764)
+           2750 LOAD_CONST              74 (64315)
+           2753 JUMP_ABSOLUTE         2777
+        >> 2756 LOAD_CONST              45 (61795)
+           2759 LOAD_CONST              46 (6373)
+           2762 LOAD_CONST              47 (19304)
+           2765 LOAD_CONST              48 (1363)
+           2768 JUMP_ABSOLUTE         2780
+        >> 2771 STORE_FAST               5 (i)
+           2774 JUMP_ABSOLUTE         2174
+        >> 2777 JUMP_FORWARD           203 (to 2983)
+        >> 2780 JUMP_ABSOLUTE          901
+        >> 2789 COMPARE_OP               2 (==)
+           2792 POP_JUMP_IF_TRUE      2822
+           2795 LOAD_CONST             162 (50360135)
+           2798 LOAD_FAST                7 (DIVIDER)
+           2801 COMPARE_OP               2 (==)
+           2804 POP_JUMP_IF_TRUE      2825
+           2807 LOAD_CONST             183 (2759880987L)
+           2810 LOAD_FAST                7 (DIVIDER)
+           2813 COMPARE_OP               2 (==)
+           2816 POP_JUMP_IF_TRUE      2828
+           2819 JUMP_ABSOLUTE         2136
+        >> 2822 JUMP_ABSOLUTE         1194
+        >> 2825 JUMP_ABSOLUTE         2706
+        >> 2828 JUMP_ABSOLUTE          136
+        >> 2836 LOAD_CONST             189 (2624506001L)
+           2839 LOAD_FAST                7 (DIVIDER)
+           2842 COMPARE_OP               2 (==)
+           2845 POP_JUMP_IF_TRUE      2863
+           2848 LOAD_CONST             156 (884634542)
+           2851 LOAD_FAST                7 (DIVIDER)
+           2854 COMPARE_OP               2 (==)
+           2857 POP_JUMP_IF_TRUE      2866
+           2860 JUMP_ABSOLUTE          676
+        >> 2863 JUMP_ABSOLUTE         2613
+        >> 2866 JUMP_FORWARD           202 (to 3071)
+        >> 2873 LOAD_CONST             196 (3774890599L)
+           2876 LOAD_FAST                7 (DIVIDER)
+           2879 COMPARE_OP               2 (==)
+           2882 POP_JUMP_IF_TRUE      2903
+           2885 LOAD_CONST             200 (4079545150L)
+           2888 LOAD_FAST                7 (DIVIDER)
+           2891 COMPARE_OP               2 (==)
+           2894 POP_JUMP_IF_TRUE      2906
+           2897 LOAD_CONST             207 (2327741117L)
+           2900 JUMP_ABSOLUTE          287
+        >> 2903 JUMP_ABSOLUTE         2361
+        >> 2906 JUMP_ABSOLUTE         2198
+        >> 2915 JUMP_ABSOLUTE         2945
+        >> 2918 LOAD_CONST             185 (1958480987)
+           2921 STORE_FAST               7 (DIVIDER)
+           2924 JUMP_ABSOLUTE         2948
+        >> 2927 LOAD_CONST             186 (2504276117L)
+           2930 STORE_FAST               7 (DIVIDER)
+           2933 JUMP_ABSOLUTE         2951
+        >> 2936 LOAD_CONST             187 (86491762)
+           2939 STORE_FAST               7 (DIVIDER)
+           2942 JUMP_ABSOLUTE          379
+        >> 2945 JUMP_ABSOLUTE         1122
+        >> 2948 JUMP_ABSOLUTE         1122
+        >> 2951 JUMP_ABSOLUTE         1122
+        >> 2959 STORE_FAST               7 (DIVIDER)
+           2962 JUMP_ABSOLUTE         2992
+        >> 2965 LOAD_CONST             164 (2524697422L)
+           2968 STORE_FAST               7 (DIVIDER)
+           2971 JUMP_ABSOLUTE         2995
+        >> 2974 LOAD_CONST             165 (4248338727L)
+           2977 STORE_FAST               7 (DIVIDER)
+           2980 JUMP_ABSOLUTE         2998
+        >> 2983 LOAD_CONST             166 (85215907)
+           2986 STORE_FAST               7 (DIVIDER)
+           2989 JUMP_ABSOLUTE          880
+        >> 2992 JUMP_ABSOLUTE         1122
+        >> 2995 JUMP_ABSOLUTE         1122
+        >> 2998 JUMP_ABSOLUTE         1122
+        >> 3008 LOAD_CONST             157 (2548479002L)
+           3011 STORE_FAST               7 (DIVIDER)
+           3014 JUMP_ABSOLUTE         3038
+        >> 3017 LOAD_CONST             158 (1647233480)
+           3020 STORE_FAST               7 (DIVIDER)
+           3023 JUMP_ABSOLUTE         3041
+        >> 3026 LOAD_CONST             159 (2770185354L)
+           3029 STORE_FAST               7 (DIVIDER)
+           3032 JUMP_ABSOLUTE         3044
+        >> 3038 JUMP_ABSOLUTE         1122
+        >> 3041 JUMP_ABSOLUTE         1122
+        >> 3044 JUMP_ABSOLUTE         1122
+        >> 3052 LOAD_FAST                5 (i)
+           3055 BINARY_SUBSCR       
+           3056 JUMP_ABSOLUTE         3083
+        >> 3059 LOAD_CONST             116 (973988289)
+           3062 LOAD_CONST             117 (-867920193)
+           3065 LOAD_CONST             118 (-132362266)
+           3068 JUMP_ABSOLUTE         3086
+        >> 3071 LOAD_CONST             113 (-783373820)
+           3074 LOAD_CONST             114 (892608580)
+           3077 BUILD_LIST              38
+           3080 JUMP_ABSOLUTE         2387
+        >> 3083 JUMP_ABSOLUTE          116
+        >> 3086 JUMP_ABSOLUTE          224
+        >> 3096 JUMP_ABSOLUTE         3123
+        >> 3099 LOAD_CONST             200 (4079545150L)
+           3102 STORE_FAST               7 (DIVIDER)
+           3105 JUMP_ABSOLUTE         3126
+        >> 3108 LOAD_CONST             201 (155584763)
+           3111 STORE_FAST               7 (DIVIDER)
+           3114 JUMP_ABSOLUTE         3129
+        >> 3117 LOAD_CONST             202 (1156782974)
+           3120 JUMP_ABSOLUTE            7
+        >> 3123 JUMP_ABSOLUTE         1122
+        >> 3126 JUMP_ABSOLUTE         1122
+        >> 3129 JUMP_ABSOLUTE         1122
+        >> 3141 LOAD_CONST             160 (3540564641L)
+           3144 STORE_FAST               7 (DIVIDER)
+           3147 JUMP_ABSOLUTE         3174
+        >> 3150 LOAD_CONST             161 (2816035871L)
+           3153 STORE_FAST               7 (DIVIDER)
+           3156 JUMP_ABSOLUTE         3177
+        >> 3159 LOAD_CONST             162 (50360135)
+           3162 STORE_FAST               7 (DIVIDER)
+           3165 JUMP_ABSOLUTE         3180
+        >> 3168 LOAD_CONST             163 (982086896)
+           3171 JUMP_ABSOLUTE         2959
+        >> 3174 JUMP_ABSOLUTE         1122
+        >> 3177 JUMP_ABSOLUTE         1122
+        >> 3180 JUMP_ABSOLUTE         1122
+717b09090909097d070071280064cb007d0700712b0064cc007d0700712e0064cd007d07006e84086e37046e34046e31040909090909642c00715100646700646800646900646a00646b007154000909096e17006e27020909090909090909717a0064ad007d0700717d0064ae007d070071800064af006e5a076ee5036ee2036edf03090909090964060064070064080064090071a1007c0500197c00006e4b0b6ec20a09090909646c00646d00646e00646f0064700071c300644b00644c006e62046eca08090909090909090964bf007d070071ec0064c0007d070071ef0064c1007d070071f2000909096e73036e70036e6d03090909090964be007c07006b0200731501649e007c07006b02007318016eec006e16046e4204090909097c07006b020073400164b1007c07006b020073430164a4007c07006b02006eec026eb00a6e25090909090909090909647f00648000648100648200648300716f016484006485006486007172010909096e68066ee20a090909090909719c0164bc007d0700719f0164bd007d070071a20164be007d070071a5010909096ec3026ec0026ebd026eba020909090909090909097c07006b020073cf0164ca007c07006b020073d20164d0007c07006e16096eb5066ea80809090909090964240071f601644d00644e00644f0064500064510071f9010909096eea0571ce00090909090964ba007c07006b0200731c0264ce007c07006b0200731f026e3204713c006e9702090909090964c2007d070071450264c3007d070071480264c4007d0700714b020909096e1a026e17026e14020909090909090964af007c07006b0200737002649b007c07006b02007373026ec9086ecb036eb400090909090909090964c5007d070071990264c6007d0700719c0264c7007d07006e7f096ec6016ec301090909090964b8007c07006b020073bf0264cb007c07006b020073c2026ebc026eec006e5900090909090964aa007d070071e50264ab007d070071e80264ac007d0700715f006e7a016e7701090909090909730c0364c3007c07006b0200730f0364c5007c07006b02006eee016e18066e5301090909090909090909713603643e00643f00644000713903191783010001713c030909096e3f086e8408711f00090909090909090964cd007c07006b020073620364a0007c07006b02007365036e6e006ee0066e0404090909090909090971910364a7007d070071940364a8007d070071970364a9007d0700719a030909096ece006ecb006ec8006ec5000909090909648c00648d00648e0071c0037d0400780f0071c60371c9037c01006e440471ca0271b7036e90006eec040909090964c6007c07006b020073eb0364a5007c07006b020073ee0371fa006ee5066e3e02090909090974030083000001710f047400006473008301007112040909097162006ebd0709090909090909090964d200537122040909090909090973470464a7007c07006b0200734a0464aa007c07006b020071f1026e54067197000909090909097d070071710464d1007d07007174046e12006456006457006458006e08027162047162046e3c02090909097c07006b0200739f04649d007c07006b020073a20464b6007c07006b02006e2d026ebc026e69030909090909640d00640e00640f0064100071c40419147c020071c70409090971d302717303090909090909090964020064030064040064050071f304645d00645e00645f00646000646100711b036ebc020909090973180564a8007c07006b0200731b0564c2007c07006b0200731e056efc0571a8006eed0471e101090909096726007d02007141056e1300090909714a05640000536448006e7a05712702713405090909716200090909090909177c03007c0500716f05645900645a00645b00645c007172050909096e150471d70009090909090964c1007c07006b020073990564b3007c07006b0200739c0564c700717e046e91016edd00090909097c07006b020073c105649f007c07006b020073c40564d1007c07006e0f006e75016ef2030909090909090909096b020073ee0564ac007c07006b020073f10564a3007c07006b02006e0c007100046e0c0309090909090973180664b5007c07006b0200731b0664ad007c07006b0200731e067155026e1e046e890071370509090909090909097d0600714206641600641700641800641900714506147153056e50056ecc0009090909090964bf007c07006b0200736c0664b4007c07006b0200736f0664cc0071b1016ea3026e190109090909090909719706643600643700643800643900643a00719a066462006463006e16036e2f056e6e000909090964550071c206641a00641b00641c00641d0071c50664bc007c07006b02006e19037130027116000909090973ed0664b0007c07006b020073f00664a1007c07006b020073f30664c0006ee9016e6c02716001714e01090909090909090909711a0764b3007d0700711d0764b4007d070071200764b5006e890071620471620471620409090909090909714807647700647800647900714b07640a00640b00640c00714e070909096e5e0071dc026e7001090909090909096415007172077c050019147c00007c050071750764010071d2046e29046e370109090909643200643300643400643500719707643b00643c00643d006e9b027102070909090909090909097d070071c40764b6007d070071c70764b7007d070071ca0764b8007d07006e9f03716204716204716204090909090909097d070071f50764b0007d070071f80764b1007d070071fb0764b2007d070071ff067162047162047162040909090909097c0500197c00007120086441006442006443006444007123080909097190026e3a04090909096b0200734b08649a007c07006b0200734e0864ab007c07006b020073510871470371ba0371f6036ec3010909090964a6007c07006b020073730864a9007c07006b0200737608711e0471ba006eed0009090909097c04006a0100719f08641e00641f0064200064210071a208648a00648b0071a2036e82036e88030909090909090971c70864ce007d070071ca0864cf007d070071cd0864d0007153047162047162047162040909090909097c07006b020073f40864bb007c07006b020073f70864c9007c0700712a0871e104718e06090909090909647a00647b00647c00647d00647e00711e0964520064530064540071a1066e2d03090909090909648f00649000649100649200649300714809642800642900642a00642b00713600717c0309090909090909097d0300670000716c0974020083000001716f09643100717c0771bb077190010909090909090909096e1e00649a007d0700719f09649b007d070071a209649c007d070071a5090909096ea602716204716204716204090909090964640064650064660071cc094471cf096497006498006499006726007129066ea001711f0009090909090909090973fc0964ae007c07006b020073ff0964b2007c07006b020073020a64b90071a305713b056ec20071bd0909090909090964940064950064960071260a64110064120064130064140071580771ec0709090909090909090971510a5771540a64450064460064470071570a5d1200715d0a71600a090909710d0071b808717e01714b0a71870271870109090909090909096425006426006726007d010064270071860a64220064230071db0171390209090909090909090964870064880064890071b00a7c04007c06006b020072b30a712a070909096e6801717e090909090909644900644a0071d90a642d00642e00642f0064300071dc0a7d0500717e086ecb007185030909090909096b020073060b64a2007c07006b020073090b64b7007c07006b0200730c0b71580871aa0471920a718800090909090964bd007c07006b0200732f0b649c007c07006b020073320b71a40271350a6eca000909090964c4007c07006b020073570b64c8007c07006b0200735a0b64cf00711f0171390971960809090909090971810b64b9007d070071840b64ba007d070071870b64bb007d0700717b0171620471620471620409090909097d070071b00b64a4007d070071b30b64a5007d070071b60b64a6007d070071700371620471620471620409090909090909649d007d070071de0b649e007d070071e10b649f007d070071e40b09090971620471620471620409090909097c050019710b0c647400647500647600710e0c64710064720067260071530971740071e0000909090909090971330c64c8007d070071360c64c9007d070071390c64ca0071070071620471620471620409090909090909090964a0007d070071660c64a1007d070071690c64a2007d0700716c0c64a300718f0b716204716204716204090909090909090909
+         consts
+            None
+            13433
+            4747
+            17752
+            33060
+            31051
+            48809
+            29988
+            6421
+            20021
+            38888
+            24844
+            20706
+            11713
+            34938
+            12865
+            6085
+            37391
+            32840
+            31964
+            27194
+            8701
+            48142
+            27066
+            28626
+            37431
+            39142
+            46795
+            21771
+            44280
+            40628
+            35013
+            18583
+            5418
+            4347
+            43929
+            9934
+            46892
+            19868
+            13711
+            7074
+            79833
+            42654
+            23241
+            41412
+            61795
+            6373
+            19304
+            1363
+            1682
+            66279
+            76134
+            60748
+            10355
+            63484
+            30491
+            34005
+            51393
+            38029
+            7241
+            4998
+            18562
+            16935
+            66677
+            51321
+            13771
+            49108
+            52166
+            8851
+            16900
+            31682
+            16684
+            12046
+            16764
+            64315
+            76742
+            14022
+            832832835
+            -924053193
+            -307134635
+            -527578092
+            998625960
+            -715102211
+            3572182
+            -963194083
+            -475718185
+            -361574731
+            -678171563
+            107566155
+            608670527
+            254218946
+            -81206308
+            -284228457
+            373369420
+            659110852
+            165298084
+            -389004184
+            893094421
+            -868933443
+            44838205
+            -98551062
+            -59800920
+            -575871298
+            -748337118
+            696390966
+            427210246
+            -266607884
+            -555200820
+            -594235119
+            -233255094
+            229291711
+            711922719
+            14476464
+            -783373820
+            892608580
+            38
+            973988289
+            -867920193
+            -132362266
+            -172451190
+            1471255182
+            -242282199
+            321870424
+            -897049789
+            -428663209
+            -256350703
+            -613466537
+            321254055
+            641759727
+            344601346
+            -40281788
+            -217030057
+            476060216
+            767746297
+            503093626
+            -102198850
+            984358207
+            -415480559
+            322813233
+            178032672
+            48876640
+            -467362638
+            -260077296
+            923436845
+            536082660
+            -138702820
+            -210365307
+            -397666023
+            -215329942
+            274852104
+            818217684
+            41479433
+            -632022956
+            1204798830
+            2301852651L
+            285725810
+            884634542
+            2548479002L
+            1647233480
+            2770185354L
+            3540564641L
+            2816035871L
+            50360135
+            982086896
+            2524697422L
+            4248338727L
+            85215907
+            3212239732L
+            2341687652L
+            3290924521L
+            3704389375L
+            4286464245L
+            2021752943
+            1317946295
+            3622895996L
+            1393258618
+            696454276
+            2553032551L
+            1483355210
+            1493888620
+            3108974362L
+            972353852
+            3287039386L
+            2759880987L
+            494892034
+            1958480987
+            2504276117L
+            86491762
+            3527259578L
+            2624506001L
+            3793853702L
+            971694574
+            1002508958
+            3919931372L
+            1956782531
+            2118042320
+            3774890599L
+            3804243641L
+            3095970229L
+            323719881
+            4079545150L
+            155584763
+            1156782974
+            2617360123L
+            1889634705
+            3888638452L
+            829701355
+            2327741117L
+            124773723
+            3520207424L
+            None
+         names ('range', 'append', 'p_s', 'p_f')
+         varnames ('data', 'a', 'b', 'c', 'd', 'i', 'e', 'DIVIDER')
+         freevars ()
+         cellvars ()
+         filename 'enc.py'
+         name 'count'
+         firstlineno 20
+         lnotab 0002780178017802060213013d0278020c010a02
+      102
+      108
+      97
+      103
+      58
+      38
+      4130330538L
+      1627830889
+      3168701571L
+      4084147187L
+      3521152606L
+      651787064
+      1860581437
+      2730391645L
+      2694209818L
+      3715947653L
+      3816944324L
+      394367122
+      None
+   names ('sys', 'str2hex', 'hex2str', 'p_s', 'p_f', 'count', 'stdout', 'write', 'stdin', 'read', 'flag')
+   varnames ('DIVIDER',)
+   freevars ()
+   cellvars ()
+   filename 'enc.py'
+   name '<module>'
+   firstlineno 1
+   lnotab 0c020906090509030903091225021202
