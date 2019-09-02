@@ -1,0 +1,10 @@
+Package: kmod-ath9k
+Version: 4.9.152+2017-11-01-9
+Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42), kmod-ath9k-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 59049
+Description:  This module adds support for wireless adapters based on
+ Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.

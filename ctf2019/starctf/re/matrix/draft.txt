@@ -1,0 +1,70 @@
+(0, 0)			(0, 1)
+0xfdfe0ba1L     0x51329f58
+0x7b33a8bb      0x6f7b9915
+0x3dc4ee74      0x2c55324
+0x3e1637a6      0x43846281
+
+0xdf7502ce
+
+(1, 0)			(1, 1)
+0xc96f3527L     0xf5201fcdL
+0x51ef954       0xdb8e3ef9L
+0x715a634c      0xeb1a8529L
+0x9335d185L     0x9a3b536dL
+
+0x9967f311L,
+
+(2, 0)			(2, 1)
+0x9b009084L     0xc381e2cdL
+0x18952236      0x98936ff0L
+0xbd7faf0fL     0xc3df1016L
+0x83bc3205L     0x94c6bf5aL
+
+0xdc9e8f3cL,
+
+(3, 0)			(3, 1)
+0x22b35be4      0x91fb13abL
+0x3372486a      0x80f07b8dL
+0xedd9d6d1L     0xad254c2eL
+0xfb9ca491L     0x1aef5581
+
+0xfe32ed8fL,
+
+(4, 0)			(4, 1)
+0x9cf903a1L     0xfe217f1cL
+0x9b555a08L     0xa9b44eafL
+0xb9cc1351L     0x259911b0
+0x591685ae      0xf54c810cL
+
+0x19382448,
+
+(5, 0)			(5, 1)
+0x5f2f456e      0x9a915052L
+0xfb67fe21L     0x4550e6ae
+0xbc1220f9L     0x9b0b7b06L
+0xf49ad883L     0xfadb2b18L
+
+0xfb5a012fL,
+
+
+
+>uG8   \w8]   J|@>   Oh)!   ye$B   ukxG
+xU"a   Gj3o   S_Cu   }]nU   h`1)   uHnr
+W8F?   {7h1   X4G\   63_i   *[T3   ;73-
+P[jk   KP6o   Xp,T   -gF:   s_m4   a/_j
+|/Zj   v9E[   oeps   -S96   \Q}]   g1c}
+:!);   B::(   '-SR   ERNJ   gJO(   AR&|
+*CTF   a'/0   SA;V   nL?K   SZL    4nEE
+uP@J   uk6W   @GhI   RV&b   "-R!   YOcm
+erkU   XP#3          2\t$   5zB(   AkT6
+Mc=F   hx-A          Q7^<          -l/l
+;|.b   X .;          <1I7          YctL
+=!M3   4gjL          1I@B          VRae
+A6V\   /_"u          jke&
+k?!R   ^I;-
+       :q(V
+
+
+
+
+*CTF{7h1S_Cu63_is_m4g1c}

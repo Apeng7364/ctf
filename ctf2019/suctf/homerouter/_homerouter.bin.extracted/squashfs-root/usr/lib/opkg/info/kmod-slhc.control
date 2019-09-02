@@ -1,0 +1,9 @@
+Package: kmod-slhc
+Version: 4.9.152-1
+Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42), kmod-lib-crc-ccitt
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mips_24kc
+Installed-Size: 3359
+Description:  Serial Line Header Compression

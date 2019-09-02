@@ -1,0 +1,9 @@
+Package: kmod-usb-net-huawei-cdc-ncm
+Version: 4.9.152-1
+Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42), kmod-usb-net, kmod-usb-net-cdc-ncm, kmod-usb-wdm
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mips_24kc
+Installed-Size: 1567
+Description:  Kernel support for Huawei CDC NCM connections

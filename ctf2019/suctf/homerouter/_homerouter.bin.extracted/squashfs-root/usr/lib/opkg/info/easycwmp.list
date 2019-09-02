@@ -1,0 +1,14 @@
+/usr/share/easycwmp/functions/root
+/usr/sbin/easycwmpd
+/usr/share/easycwmp/functions/ipping_diagnostic
+/usr/share/easycwmp/functions/system
+/usr/share/easycwmp/defaults
+/usr/share/easycwmp/functions/device_info
+/usr/share/easycwmp/functions/management_server
+/etc/init.d/easycwmpd
+/usr/share/easycwmp/functions/ipping_launch
+/usr/share/easycwmp/functions/lan_device
+/etc/config/easycwmp
+/usr/share/easycwmp/functions/wan_device
+/usr/sbin/easycwmp
+/usr/share/easycwmp/functions/common
