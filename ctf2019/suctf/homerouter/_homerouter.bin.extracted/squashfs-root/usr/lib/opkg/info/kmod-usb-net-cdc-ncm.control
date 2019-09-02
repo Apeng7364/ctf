@@ -1,9 +1,0 @@
-Package: kmod-usb-net-cdc-ncm
-Version: 4.9.152-1
-Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42), kmod-usb-net
-Source: package/kernel/linux
-License: GPL-2.0
-Section: kernel
-Architecture: mips_24kc
-Installed-Size: 9355
-Description:  Kernel support for CDC NCM connections

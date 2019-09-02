@@ -1,9 +1,0 @@
-Package: kmod-nf-conntrack
-Version: 4.9.152-1
-Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42)
-Source: package/kernel/linux
-License: GPL-2.0
-Section: kernel
-Architecture: mips_24kc
-Installed-Size: 36660
-Description:  Netfilter connection tracking

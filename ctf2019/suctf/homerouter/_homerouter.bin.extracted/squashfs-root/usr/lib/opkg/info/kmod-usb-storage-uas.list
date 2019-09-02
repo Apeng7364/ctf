@@ -1,3 +1,0 @@
-/etc/modules.d/usb-storage-uas
-/etc/modules-boot.d/usb-storage-uas
-/lib/modules/4.9.152/uas.ko

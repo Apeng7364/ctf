@@ -1,9 +1,0 @@
-Package: kmod-cfg80211
-Version: 4.9.152+2017-11-01-9
-Depends: kernel (=4.9.152-1-2a803c4ac21d80a8a37bd787103bbe42), iw, wireless-regdb
-Source: package/kernel/mac80211
-Section: kernel
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mips_24kc
-Installed-Size: 126862
-Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.

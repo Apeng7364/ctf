@@ -1,1 +1,0 @@
-LD_PRELOAD=./un.so.1 ./babyunic data

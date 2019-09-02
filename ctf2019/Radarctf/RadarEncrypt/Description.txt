@@ -1,2 +1,0 @@
-Can you reverse the tool and decrypt the flag ?
-pattern : {qwertyuiopas_dfghjklzxcvbnm}
